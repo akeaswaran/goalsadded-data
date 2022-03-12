@@ -18,8 +18,6 @@ jobs:
           - name: Push updated files
             uses: test-room-7/action-update-file@v1.5.0
             with:
-              file-path: |
-                data/season-g+-pct.csv
-                data/player_lookup.csv
+              file-path: data/*.csv
               commit-msg: "Updated G+ CSVs after latest bot run."
               github-token: ${{ secrets.GITHUB_TOKEN }}
