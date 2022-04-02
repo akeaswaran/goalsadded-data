@@ -72,6 +72,7 @@ for i in range(0, len(chunks)):
 
 print(f"Found {len(player_data)} ASA player records, dropping dupes...")
 player_data.drop_duplicates('player_id',inplace=True)
+player_data.sort_values(by='player_name', inplace=True)
 print(f"Found {len(player_data)} unique ASA player records, slimming and saving to disk...")
 slim_set = player_data[['player_id', 'player_name']]
 slim_set.to_csv('./data/player_lookup.csv',index=False)
