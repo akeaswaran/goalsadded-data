@@ -30,7 +30,8 @@ def percentiles(base, position, action_type, year):
 
     print(f"Compiling data for combo of {position} / {action_type} / {year}") 
     data = slice_gplus["data.goals_added_raw"]
-    return pd.DataFrame({ "position" : position, "action_type" : action_type, "season" : year, "pct" : base_range, "value" : data.quantile(base_range)})
+    adj_data = data * 96 / slice_gplus["minutes_played"]
+    return pd.DataFrame({ "position" : position, "action_type" : action_type, "season" : year, "pct" : base_range, "p96" : adj_data.quantile(base_range), "pSzn" : data.quantile(base_range)})
 
 print(f"Retriving fresh G+ data from ASA...") 
 gplus_expl_flat = retrieve_data(False, True)
