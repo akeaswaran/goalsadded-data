@@ -78,3 +78,32 @@ print(f"Found {len(player_data)} unique ASA player records, slimming and saving 
 slim_set = player_data[['player_id', 'player_name']]
 slim_set.to_csv('./data/player_lookup.csv',index=False)
 print(f"Saved lookup table of {len(player_data)} player records to disk.")
+
+print(f"Starting to process {len(gplus_expl_flat)} records for team roster breakdowns...")
+grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','player_id','general_position']).agg({
+    'data.goals_added_raw': ['sum'], 
+    'minutes_played' : ['mean']
+}).reset_index()
+grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
+grouped_gplus['total'] = grouped_gplus['data.goals_added_raw']
+grouped_gplus['p96'] = grouped_gplus['data.goals_added_raw'] * 96 / grouped_gplus["minutes_played"]
+grouped_gplus = grouped_gplus[['season_name', 'team_id', 'player_id','general_position', 'minutes_played','total', 'p96']]
+print(f"Found {len(grouped_gplus)} unique season/team/player/position groups...")
+
+print(f"Organizing players by season/team/position...")
+team_breakdown_gplus = grouped_gplus.groupby(['season_name','team_id','general_position']).apply(
+        lambda x: pd.Series([
+            np.mean(x['total']),
+            np.mean(x['p96']),
+            np.average(x['p96'], weights=x['minutes_played'])
+        ], index=['total_avg', 'p96_avg', 'p96_weighted_avg'])
+    ).reset_index()
+print(f"Calculated G+ averages for {len(team_breakdown_gplus)} season/team/position")
+print(f"Calculating G+ ranks for {len(team_breakdown_gplus)} season/team/positions...")
+team_breakdown_gplus['total_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['total_avg'].rank(ascending=False)
+team_breakdown_gplus['p96_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_avg'].rank(ascending=False)
+team_breakdown_gplus['p96_weighted_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_weighted_avg'].rank(ascending=False)
+print(f"Calculated G+ ranks for {len(team_breakdown_gplus)} season/team/positions.")
+print(f"Writing team roster breakdown records to disk...")
+team_breakdown_gplus.to_csv('./data/team_position_breakdown.csv', index=False)
+print(f"Wrote {len(team_breakdown_gplus)} team roster breakdown records to disk.")
