@@ -95,7 +95,7 @@ team_breakdown_gplus = grouped_gplus.groupby(['season_name','team_id','general_p
         lambda x: pd.Series([
             np.mean(x['total']),
             np.mean(x['p96']),
-            np.average(x['p96'], weights=x['minutes_played'])
+            np.average(x['p96'], weights=(x['minutes_played'] / sum(x['minutes_played'])))
         ], index=['total_avg', 'p96_avg', 'p96_weighted_avg'])
     ).reset_index()
 print(f"Calculated G+ averages for {len(team_breakdown_gplus)} season/team/position")
