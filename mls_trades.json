@@ -1,0 +1,2035 @@
+{
+    "2020": [
+        {
+            "year": 2020,
+            "date": "Dec 29",
+            "transactions": [
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$250000 2021 GAM",
+                        "$250000 2022 GAM",
+                        "$100000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "Ronald Matarrita"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 23",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "$50000 2020 GAM",
+                        "2021 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "Patrick Seagrist"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 18",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "2022 4th round pick (swap)"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Brandt Bronico",
+                        "2022 4th round pick (swap)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 17",
+            "transactions": [
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$500000 2021 GAM",
+                        "$250000 2022 GAM",
+                        "$500000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Alexander Ring"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 17",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Fafa Picault"
+                    ]
+                },
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "$275000 2020 GAM",
+                        "$50000 2020 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 17",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "$400000 2021 GAM",
+                        "$400000 2022 GAM",
+                        "$200000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Djordje Mihailovic"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 15",
+            "transactions": [
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Kamal Miller"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "$225000 2020 GAM",
+                        "2021 1st round pick (#11)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "Portland",
+                    "assets_acquired": [
+                        "$300000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Marco Farfan"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "$100000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Ben Sweat"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "$225000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Jon Gallagher"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "$500000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Nick Lima"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "Portland",
+                    "assets_acquired": [
+                        "$250000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Julio Cascante"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Evan Bush (GK)"
+                    ]
+                },
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "$125000 2020 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Dec 13",
+            "transactions": [
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "2022 4th round pick ",
+                        "$50000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Callum Montgomery"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Oct 21",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "Jimmy Medranda"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Handwalla Bwana",
+                        "$225000 2020 GAM",
+                        "$25000 2020 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Oct 1",
+            "transactions": [
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Mason Toye"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "$600000 2020 GAM",
+                        "2021 2nd round pick"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 28",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "Roman Torres"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "2021 1st round pick (conditional)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 28",
+            "transactions": [
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "2021 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Evan Bush (GK)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 19",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "Yordy Reyna"
+                    ]
+                },
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "$400000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 19",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "$150000 2021 GAM",
+                        "2022 2nd round pick"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Kei Kamara"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 17",
+            "transactions": [
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Adrian Zendejas (GK)"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "2021 4th round pick ",
+                        "$100000 2020 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Sep 8",
+            "transactions": [
+                {
+                    "club": "New England",
+                    "assets_acquired": [
+                        "Lee Nguyen"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "2021 4th round pick ",
+                        "$50000 2020 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Aug 17",
+            "transactions": [
+                {
+                    "club": "New England",
+                    "assets_acquired": [
+                        "Kekuta Manneh"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "2020 International Slot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Aug 17",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Wilfried Zahibo",
+                        "$150000 2020 GAM",
+                        "$25000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "New England",
+                    "assets_acquired": [
+                        "Thomas McNamara",
+                        "$175000 2020 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Aug 14",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Emmanuel Boateng"
+                    ]
+                },
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "Axel Sjoberg"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Aug 13",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "2020 International Slot"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Alex Muyl"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Feb 19",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Andrew Tarbell (GK)"
+                    ]
+                },
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "$75000 2020 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Feb 12",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "2021 2nd round pick"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Aaron Schoenfeld"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Feb 11",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "Wyatt Omsberg"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Raheem Edwards"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Feb 11",
+            "transactions": [
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$600000 2020 GAM",
+                        "$350000 2021 GAM",
+                        "2020 International Slot",
+                        "$75000 2020 GAM (performance bonus)",
+                        "$75000 2021 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Walker Zimmerman"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 29",
+            "transactions": [
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Bryan Meredith (GK)"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "2021 4th round pick"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 21",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "Julian Gressel"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "$650000 2020 GAM",
+                        "$100000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 21",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "2021 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Jacori Hayes"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 16",
+            "transactions": [
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Tyler Miller (GK)"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$150000 2020 GAM",
+                        "$50000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 13",
+            "transactions": [
+                {
+                    "club": "Philadelphia",
+                    "assets_acquired": [
+                        "$50000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "Kalil ElMedkhar"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "date": "Jan 9",
+            "transactions": [
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "$75000 2020 GAM"
+                    ]
+                },
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Jeremy Kelly"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2021": [
+        {
+            "year": 2021,
+            "date": "Dec 27",
+            "transactions": [
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$1000000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Alistair Johnston"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 23",
+            "transactions": [
+                {
+                    "club": "Philadelphia",
+                    "assets_acquired": [
+                        "Julian Carranza"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "2022 2nd round pick (#54)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 17",
+            "transactions": [
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "Dylan Castanheira (GK)"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "Mo Adams"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 16",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "Dylan Nealis"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$125000 2021 GAM",
+                        "$75000 2022 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 16",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "$50000 2022 GAM",
+                        "$50000 2023 GAM"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "Ariel Lassiter"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 14",
+            "transactions": [
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Tristan Blackmon"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "$475000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 14",
+            "transactions": [
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Ismael Tajouri-Shradi"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "$400000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "New England",
+                    "assets_acquired": [
+                        "$150000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Teal Bunbury"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "Kansas City",
+                    "assets_acquired": [
+                        "$100000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Jaylin Lindsey"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Daniel Steres"
+                    ]
+                },
+                {
+                    "club": "LA Galaxy",
+                    "assets_acquired": [
+                        "2022 3rd round pick (#60)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "LA Galaxy",
+                    "assets_acquired": [
+                        "2022 1st round pick (#21)"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Ethan Zubak"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$50000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Pablo Sisniega (GK)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 12",
+            "transactions": [
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "$250000 2022 GAM",
+                        "$350000 2023 GAM"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Franco Escobar"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Dec 9",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "Lewis Morgan"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "$1200000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Aug 6",
+            "transactions": [
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Florian Jungwirth"
+                    ]
+                },
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "$200000 2021 GAM",
+                        "$100000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Aug 6",
+            "transactions": [
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$150000 2021 GAM",
+                        "$50000 2021 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Sebastien Ibeagha"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Aug 5",
+            "transactions": [
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "Jeremy Ebobisse"
+                    ]
+                },
+                {
+                    "club": "Portland",
+                    "assets_acquired": [
+                        "$1167000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Aug 5",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "$50000 2021 GAM",
+                        "$75000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "Florian Valot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Aug 5",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "Nicolas Benezet"
+                    ]
+                },
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "$50000 2021 GAM",
+                        "$50000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jul 30",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Corey Baird"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$68675 2021 GAM", 
+                        "$681325 2022 GAM",
+                        "2021 International Slot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jul 29",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Dominique Badji"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jul 28",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Mark-Anthony Kaye",
+                        "2022 1st round pick"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$1000000 2021 GAM",
+                        "2021 International Slot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jul 8",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Erik Hurtado"
+                    ]
+                },
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "$200000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jul 6",
+            "transactions": [
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "Amar Sejdic"
+                    ]
+                },
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "$100000 2021 GAM",
+                        "$50000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jun 2",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "$400000 2021 GAM",
+                        "$100000 2021 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Brian White"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Apr 30",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "2022 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Aziel Jackson"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Apr 20",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "Frankie Amaya"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "$950000 2021 GAM",
+                        "$125000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Apr 11",
+            "transactions": [
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Dylan Nealis"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "$175000 2021 GAM",
+                        "$50000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Mar 9",
+            "transactions": [
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "2022 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Cal Jennings"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Mar 9",
+            "transactions": [
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "2024 3rd round pick (ATL pick)",
+                        "$50000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "Andrew Gutman"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Mar 4",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "$75000 2021 GAM",
+                        "$25000 2021 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Michael Edwards"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Feb 22",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "$50000 2021 GAM"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "Nick Hinds"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Feb 15",
+            "transactions": [
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "Eric Remedi"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "$200000 2021 GAM",
+                        "$100000 2021 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 28",
+            "transactions": [
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Andrew Booth"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Jukka Raitala"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 21",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Derrick Jones"
+                    ]
+                },
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$250000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 19",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Tim Parker"
+                    ]
+                },
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "$450000 2021 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 18",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Maximiliano Urruti"
+                    ]
+                },
+                {
+                    "club": "CF Montreal",
+                    "assets_acquired": [
+                        "Aljaz Struna"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 12",
+            "transactions": [
+                {
+                    "club": "Portland",
+                    "assets_acquired": [
+                        "2021 1st round pick (#8)"
+                    ]
+                },
+                {
+                    "club": "LA Galaxy",
+                    "assets_acquired": [
+                        "Jorge Villafa\u00f1a",
+                        "2021 1st round pick (#17)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 11",
+            "transactions": [
+                {
+                    "club": "Real Salt Lake",
+                    "assets_acquired": [
+                        "$500000 2021 GAM",
+                        "2021 International Slot"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Corey Baird"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "date": "Jan 8",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "2021 3rd round pick (#58)"
+                    ]
+                },
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "Jon Kempin (GK)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2022": [
+        {
+            "year": 2022,
+            "date": "Jun 22",
+            "transactions": [
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$175000 2023 GAM",
+                        "2023 3rd round pick"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "2022 International Slot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jun 22",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "$175000 2023 GAM"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "2022 International Slot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "May 6",
+            "transactions": [
+                {
+                    "club": "Orlando City",
+                    "assets_acquired": [
+                        "Jake Mulraney"
+                    ]
+                },
+                {
+                    "club": "Atlanta United",
+                    "assets_acquired": [
+                        "$100000 2022 GAM",
+                        "$175000 2023 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "May 4",
+            "transactions": [
+                {
+                    "club": "LA Galaxy",
+                    "assets_acquired": [
+                        "Chase Gasper"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "$450000 2023 GAM", 
+                        "$300000 2023 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "May 3",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "$225000 2022 GAM",
+                        "$175000 2022 GAM (performance bonus)",
+                        "50% trade fee"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Andre Shinyashiki"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Apr 22",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "$300000 2022 GAM",
+                        "$1100000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Gyasi Zardes"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Mar 29",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Gustavo Vallecilla"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "$400000 2022 GAM",
+                        "$400000 2023 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Mar 17",
+            "transactions": [
+                {
+                    "club": "Toronto FC",
+                    "assets_acquired": [
+                        "Sean O'Hearn",
+                        "$50000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Kemar Lawrence"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Mar 3",
+            "transactions": [
+                {
+                    "club": "Portland",
+                    "assets_acquired": [
+                        "$100000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "Joshu\u00e9 Qui\u00f1\u00f3nez"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 27",
+            "transactions": [
+                {
+                    "club": "Houston",
+                    "assets_acquired": [
+                        "Xavier Valdez (GK)"
+                    ]
+                },
+                {
+                    "club": "New York Red Bulls",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 25",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "$250000 2022 GAM",
+                        "$175000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "Junior Moreno"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 25",
+            "transactions": [
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$50000 2022 GAM",
+                        "$25000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "FC Cincinnati",
+                    "assets_acquired": [
+                        "Harrison Robledo"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 24",
+            "transactions": [
+                {
+                    "club": "Nashville",
+                    "assets_acquired": [
+                        "$350000 2022 GAM",
+                        "$150000 2023 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Daniel Rios"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 16",
+            "transactions": [
+                {
+                    "club": "Minnesota",
+                    "assets_acquired": [
+                        "Kervin Arriaga"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "$50000 2022 GAM",
+                        "$50000 2023 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 14",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "2023 3rd round pick (SEA pick)"
+                    ]
+                },
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "Jackson Ragen"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 14",
+            "transactions": [
+                {
+                    "club": "Philadelphia",
+                    "assets_acquired": [
+                        "$250000 2022 GAM",
+                        "$200000 2022 GAM (performance bonus)",
+                        "2022 International Slot"
+                    ]
+                },
+                {
+                    "club": "San Jose",
+                    "assets_acquired": [
+                        "Jamiro Monteiro"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 10",
+            "transactions": [
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "Marco Farfan"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Ryan Hollingshead"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Feb 4",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "Sebastian Berhalter"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 27",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "Bradley Smith"
+                    ]
+                },
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "$750000 2022 GAM",
+                        "10% sell-on fee beyond MLS"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 26",
+            "transactions": [
+                {
+                    "club": "D.C. United",
+                    "assets_acquired": [
+                        "$2000000 2022 GAM",
+                        "$300000 2022 GAM (performance bonus)",
+                        "30% sell-on clause"
+                    ]
+                },
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "Paul Arriola"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 25",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "2022 2nd round pick"
+                    ]
+                },
+                {
+                    "club": "Austin FC",
+                    "assets_acquired": [
+                        "Damian Las (GK)",
+                        "2022 2nd round pick"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 22",
+            "transactions": [
+                {
+                    "club": "Chicago",
+                    "assets_acquired": [
+                        "Kacper Przybylko"
+                    ]
+                },
+                {
+                    "club": "Philadelphia",
+                    "assets_acquired": [
+                        "$1575000 2022 GAM",
+                        "$1575000 2023 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 21",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Williams Sands"
+                    ]
+                },
+                {
+                    "club": "New York City FC",
+                    "assets_acquired": [
+                        "$50000 2022 GAM",
+                        "$75000 2022 GAM (performance bonus)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 21",
+            "transactions": [
+                {
+                    "club": "Toronto FC",
+                    "assets_acquired": [
+                        "$400000 2022 GAM",
+                        "$100000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "LA Galaxy",
+                    "assets_acquired": [
+                        "Marco Delgado"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 20",
+            "transactions": [
+                {
+                    "club": "Vancouver Whitecaps",
+                    "assets_acquired": [
+                        "$250000 2022 GAM",
+                        "$250000 2023 GAM",
+                        "$250000 2024 GAM",
+                        "$250000 2025 GAM",
+                        "2025 1st round pick"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Maxime Cr\u00e9peau (GK)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 14",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "Jake Morris"
+                    ]
+                },
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 14",
+            "transactions": [
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "$1100000 2022 GAM",
+                        "$400000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "Kellyn Acosta"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 10",
+            "transactions": [
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "No. 1 Allocation Ranking spot"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Christian Makoun",
+                        "No. 9 Allocation Ranking spot"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 10",
+            "transactions": [
+                {
+                    "club": "Toronto FC",
+                    "assets_acquired": [
+                        "$50000 2022 GAM"
+                    ]
+                },
+                {
+                    "club": "FC Dallas",
+                    "assets_acquired": [
+                        "Dom Dwyer",
+                        "2022 1st round pick (#3)"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 6",
+            "transactions": [
+                {
+                    "club": "Seattle Sounders",
+                    "assets_acquired": [
+                        "$50000 2022 GAM",
+                        "$50000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Charlotte FC",
+                    "assets_acquired": [
+                        "Chris Hegardt"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 5",
+            "transactions": [
+                {
+                    "club": "Columbus Crew",
+                    "assets_acquired": [
+                        "$300000 2022 GAM",
+                        "$150000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Colorado Rapids",
+                    "assets_acquired": [
+                        "Aboubacar Keita"
+                    ]
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "date": "Jan 4",
+            "transactions": [
+                {
+                    "club": "LAFC",
+                    "assets_acquired": [
+                        "$100000 2022 GAM",
+                        "$75000 2022 GAM (performance bonus)"
+                    ]
+                },
+                {
+                    "club": "Inter Miami",
+                    "assets_acquired": [
+                        "Bryce Duke"
+                    ]
+                }
+            ]
+        }
+    ]
+}
