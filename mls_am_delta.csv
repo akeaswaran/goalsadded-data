@@ -1,0 +1,225 @@
+year,club,gam_delta,tam_delta
+2018,New York City FC,0.0,0.0
+2018,FC Cincinnati,-135000.0,-1050000.0
+2018,New York Red Bulls,-225000.0,-150000.0
+2018,Inter Miami,0.0,0.0
+2018,Chicago,1125000.0,-200000.0
+2018,Charlotte FC,0.0,0.0
+2018,Austin FC,0.0,0.0
+2018,Houston,0.0,-100000.0
+2018,FC Dallas,0.0,225000.0
+2018,CF Montreal,0.0,-75000.0
+2018,Portland,0.0,500000.0
+2018,LAFC,0.0,0.0
+2018,Atlanta United,300000.0,450000.0
+2018,San Jose,135000.0,0.0
+2018,Columbus Crew,300000.0,150000.0
+2018,Vancouver Whitecaps,225000.0,200000.0
+2018,Minnesota,125000.0,100000.0
+2018,Seattle Sounders,50000.0,0.0
+2018,Nashville,0.0,0.0
+2018,D.C. United,-350000.0,-50000.0
+2018,Colorado Rapids,-50000.0,50000.0
+2018,New England,100000.0,250000.0
+2018,Philadelphia,-1200000.0,50000.0
+2018,Kansas City,-100000.0,-150000.0
+2018,LA Galaxy,0.0,-400000.0
+2018,Real Salt Lake,0.0,0.0
+2018,Orlando City,-300000.0,200000.0
+2018,Toronto FC,0.0,0.0
+2019,New York City FC,-50000.0,0.0
+2019,FC Cincinnati,-1400000.0,-100000.0
+2019,New York Red Bulls,-275000.0,0.0
+2019,Inter Miami,0.0,0.0
+2019,Chicago,-450000.0,-150000.0
+2019,Charlotte FC,0.0,0.0
+2019,Austin FC,0.0,0.0
+2019,Houston,-125000.0,-75000.0
+2019,FC Dallas,150000.0,175000.0
+2019,CF Montreal,0.0,50000.0
+2019,Portland,350000.0,0.0
+2019,LAFC,0.0,0.0
+2019,Atlanta United,0.0,750000.0
+2019,San Jose,0.0,0.0
+2019,Columbus Crew,-300000.0,-550000.0
+2019,Vancouver Whitecaps,725000.0,75000.0
+2019,Minnesota,-750000.0,200000.0
+2019,Seattle Sounders,50000.0,0.0
+2019,Nashville,-175000.0,-375000.0
+2019,D.C. United,-250000.0,-75000.0
+2019,Colorado Rapids,-225000.0,-75000.0
+2019,New England,100000.0,0.0
+2019,Philadelphia,1175000.0,100000.0
+2019,Kansas City,1100000.0,-50000.0
+2019,LA Galaxy,250000.0,0.0
+2019,Real Salt Lake,0.0,150000.0
+2019,Orlando City,-50000.0,-100000.0
+2019,Toronto FC,150000.0,50000.0
+2020,New York City FC,0.0,0.0
+2020,FC Cincinnati,-150000.0,0.0
+2020,New York Red Bulls,0.0,0.0
+2020,Inter Miami,0.0,0.0
+2020,Chicago,-50000.0,0.0
+2020,Charlotte FC,0.0,0.0
+2020,Austin FC,0.0,0.0
+2020,Houston,-575000.0,0.0
+2020,FC Dallas,-125000.0,0.0
+2020,CF Montreal,-650000.0,75000.0
+2020,Portland,0.0,0.0
+2020,LAFC,825000.0,50000.0
+2020,Atlanta United,0.0,750000.0
+2020,San Jose,725000.0,0.0
+2020,Columbus Crew,125000.0,0.0
+2020,Vancouver Whitecaps,50000.0,0.0
+2020,Minnesota,1050000.0,-50000.0
+2020,Seattle Sounders,-250000.0,0.0
+2020,Nashville,-1775000.0,0.0
+2020,D.C. United,0.0,-750000.0
+2020,Colorado Rapids,-50000.0,-75000.0
+2020,New England,-25000.0,0.0
+2020,Philadelphia,450000.0,0.0
+2020,Kansas City,50000.0,0.0
+2020,LA Galaxy,275000.0,0.0
+2020,Real Salt Lake,100000.0,0.0
+2020,Orlando City,0.0,0.0
+2020,Toronto FC,0.0,0.0
+2021,New York City FC,950000.0,0.0
+2021,FC Cincinnati,775000.0,0.0
+2021,New York Red Bulls,-25000.0,0.0
+2021,Inter Miami,275000.0,0.0
+2021,Chicago,400000.0,0.0
+2021,Charlotte FC,0.0,0.0
+2021,Austin FC,-1350000.0,0.0
+2021,Houston,-1068675.0,0.0
+2021,FC Dallas,375000.0,0.0
+2021,CF Montreal,-275000.0,0.0
+2021,Portland,1717000.0,0.0
+2021,LAFC,493675.0,0.0
+2021,Atlanta United,375000.0,0.0
+2021,San Jose,-667000.0,0.0
+2021,Columbus Crew,-325000.0,0.0
+2021,Vancouver Whitecaps,-275000.0,0.0
+2021,Minnesota,-200000.0,0.0
+2021,Seattle Sounders,-50000.0,0.0
+2021,Nashville,-450000.0,0.0
+2021,D.C. United,-300000.0,0.0
+2021,Colorado Rapids,-850000.0,0.0
+2021,New England,-25000.0,0.0
+2021,Philadelphia,0.0,0.0
+2021,Kansas City,0.0,0.0
+2021,LA Galaxy,0.0,0.0
+2021,Real Salt Lake,500000.0,0.0
+2021,Orlando City,0.0,0.0
+2021,Toronto FC,0.0,0.0
+2022,New York City FC,1300000.0,0.0
+2022,FC Cincinnati,-525000.0,0.0
+2022,New York Red Bulls,-1275000.0,0.0
+2022,Inter Miami,975000.0,0.0
+2022,Chicago,-975000.0,0.0
+2022,Charlotte FC,-125000.0,0.0
+2022,Austin FC,-700000.0,0.0
+2022,Houston,-631325.0,0.0
+2022,FC Dallas,-2450000.0,0.0
+2022,CF Montreal,-1600000.0,0.0
+2022,Portland,100000.0,0.0
+2022,LAFC,-1493675.0,0.0
+2022,Atlanta United,300000.0,0.0
+2022,San Jose,-450000.0,0.0
+2022,Columbus Crew,1725000.0,0.0
+2022,Vancouver Whitecaps,-275000.0,0.0
+2022,Minnesota,-100000.0,0.0
+2022,Seattle Sounders,900000.0,0.0
+2022,Nashville,1450000.0,0.0
+2022,D.C. United,1975000.0,0.0
+2022,Colorado Rapids,-400000.0,0.0
+2022,New England,150000.0,0.0
+2022,Philadelphia,2025000.0,0.0
+2022,Kansas City,100000.0,0.0
+2022,LA Galaxy,-500000.0,0.0
+2022,Real Salt Lake,0.0,0.0
+2022,Orlando City,-100000.0,0.0
+2022,Toronto FC,600000.0,0.0
+2023,New York City FC,0.0,0.0
+2023,FC Cincinnati,400000.0,0.0
+2023,New York Red Bulls,0.0,0.0
+2023,Inter Miami,-50000.0,0.0
+2023,Chicago,-1575000.0,0.0
+2023,Charlotte FC,-150000.0,0.0
+2023,Austin FC,50000.0,0.0
+2023,Houston,50000.0,0.0
+2023,FC Dallas,0.0,0.0
+2023,CF Montreal,0.0,0.0
+2023,Portland,0.0,0.0
+2023,LAFC,-600000.0,0.0
+2023,Atlanta United,175000.0,0.0
+2023,San Jose,0.0,0.0
+2023,Columbus Crew,0.0,0.0
+2023,Vancouver Whitecaps,250000.0,0.0
+2023,Minnesota,700000.0,0.0
+2023,Seattle Sounders,175000.0,0.0
+2023,Nashville,325000.0,0.0
+2023,D.C. United,0.0,0.0
+2023,Colorado Rapids,-400000.0,0.0
+2023,New England,0.0,0.0
+2023,Philadelphia,1575000.0,0.0
+2023,Kansas City,0.0,0.0
+2023,LA Galaxy,-750000.0,0.0
+2023,Real Salt Lake,0.0,0.0
+2023,Orlando City,-175000.0,0.0
+2023,Toronto FC,0.0,0.0
+2024,New York City FC,0.0,0.0
+2024,FC Cincinnati,0.0,0.0
+2024,New York Red Bulls,0.0,0.0
+2024,Inter Miami,0.0,0.0
+2024,Chicago,0.0,0.0
+2024,Charlotte FC,0.0,0.0
+2024,Austin FC,0.0,0.0
+2024,Houston,0.0,0.0
+2024,FC Dallas,0.0,0.0
+2024,CF Montreal,0.0,0.0
+2024,Portland,0.0,0.0
+2024,LAFC,-250000.0,0.0
+2024,Atlanta United,0.0,0.0
+2024,San Jose,0.0,0.0
+2024,Columbus Crew,0.0,0.0
+2024,Vancouver Whitecaps,250000.0,0.0
+2024,Minnesota,0.0,0.0
+2024,Seattle Sounders,0.0,0.0
+2024,Nashville,0.0,0.0
+2024,D.C. United,0.0,0.0
+2024,Colorado Rapids,0.0,0.0
+2024,New England,0.0,0.0
+2024,Philadelphia,0.0,0.0
+2024,Kansas City,0.0,0.0
+2024,LA Galaxy,0.0,0.0
+2024,Real Salt Lake,0.0,0.0
+2024,Orlando City,0.0,0.0
+2024,Toronto FC,0.0,0.0
+2025,New York City FC,0.0,0.0
+2025,FC Cincinnati,0.0,0.0
+2025,New York Red Bulls,0.0,0.0
+2025,Inter Miami,0.0,0.0
+2025,Chicago,0.0,0.0
+2025,Charlotte FC,0.0,0.0
+2025,Austin FC,0.0,0.0
+2025,Houston,0.0,0.0
+2025,FC Dallas,0.0,0.0
+2025,CF Montreal,0.0,0.0
+2025,Portland,0.0,0.0
+2025,LAFC,-250000.0,0.0
+2025,Atlanta United,0.0,0.0
+2025,San Jose,0.0,0.0
+2025,Columbus Crew,0.0,0.0
+2025,Vancouver Whitecaps,250000.0,0.0
+2025,Minnesota,0.0,0.0
+2025,Seattle Sounders,0.0,0.0
+2025,Nashville,0.0,0.0
+2025,D.C. United,0.0,0.0
+2025,Colorado Rapids,0.0,0.0
+2025,New England,0.0,0.0
+2025,Philadelphia,0.0,0.0
+2025,Kansas City,0.0,0.0
+2025,LA Galaxy,0.0,0.0
+2025,Real Salt Lake,0.0,0.0
+2025,Orlando City,0.0,0.0
+2025,Toronto FC,0.0,0.0

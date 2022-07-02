@@ -27,7 +27,7 @@
                 {
                     "club": "New York Red Bulls",
                     "assets_acquired": [
-                        "$50000 2020 GAM",
+                        "$50000 2021 GAM",
                         "2021 3rd round pick"
                     ]
                 },
@@ -91,8 +91,8 @@
                 {
                     "club": "FC Dallas",
                     "assets_acquired": [
-                        "$275000 2020 GAM",
-                        "$50000 2020 GAM (performance bonus)"
+                        "$275000 2021 GAM",
+                        "$50000 2021 GAM (performance bonus)"
                     ]
                 }
             ]
@@ -130,7 +130,7 @@
                 {
                     "club": "Austin FC",
                     "assets_acquired": [
-                        "$225000 2020 GAM",
+                        "$225000 2021 GAM",
                         "2021 1st round pick (#11)"
                     ]
                 }
@@ -143,7 +143,7 @@
                 {
                     "club": "Portland",
                     "assets_acquired": [
-                        "$300000 2020 GAM"
+                        "$300000 2021 GAM"
                     ]
                 },
                 {
@@ -161,7 +161,7 @@
                 {
                     "club": "Inter Miami",
                     "assets_acquired": [
-                        "$100000 2020 GAM"
+                        "$100000 2021 GAM"
                     ]
                 },
                 {
@@ -179,7 +179,7 @@
                 {
                     "club": "Atlanta United",
                     "assets_acquired": [
-                        "$225000 2020 GAM"
+                        "$225000 2021 GAM"
                     ]
                 },
                 {
@@ -197,7 +197,7 @@
                 {
                     "club": "San Jose",
                     "assets_acquired": [
-                        "$500000 2020 GAM"
+                        "$500000 2021 GAM"
                     ]
                 },
                 {
@@ -215,7 +215,7 @@
                 {
                     "club": "Portland",
                     "assets_acquired": [
-                        "$250000 2020 GAM"
+                        "$250000 2021 GAM"
                     ]
                 },
                 {
@@ -239,7 +239,7 @@
                 {
                     "club": "Vancouver Whitecaps",
                     "assets_acquired": [
-                        "$125000 2020 GAM"
+                        "$125000 2021 GAM"
                     ]
                 }
             ]
@@ -251,8 +251,8 @@
                 {
                     "club": "FC Dallas",
                     "assets_acquired": [
-                        "2022 4th round pick ",
-                        "$50000 2020 GAM"
+                        "2022 4th round pick",
+                        "$50000 2021 GAM"
                     ]
                 },
                 {
@@ -595,8 +595,8 @@
                 {
                     "club": "Atlanta United",
                     "assets_acquired": [
-                        "$650000 2020 GAM",
-                        "$100000 2021 GAM"
+                        "$650000 2020 TAM",
+                        "$100000 2021 TAM"
                     ]
                 }
             ]
@@ -633,7 +633,7 @@
                     "club": "LAFC",
                     "assets_acquired": [
                         "$150000 2020 GAM",
-                        "$50000 2021 GAM"
+                        "$50000 2021 TAM"
                     ]
                 }
             ]
@@ -663,7 +663,7 @@
                 {
                     "club": "CF Montreal",
                     "assets_acquired": [
-                        "$75000 2020 GAM"
+                        "$75000 2020 TAM"
                     ]
                 },
                 {
@@ -683,7 +683,7 @@
                 {
                     "club": "Nashville",
                     "assets_acquired": [
-                        "$1000000 2021 GAM"
+                        "$1000000 2022 GAM"
                     ]
                 },
                 {
@@ -743,7 +743,7 @@
                 {
                     "club": "Nashville",
                     "assets_acquired": [
-                        "$125000 2021 GAM",
+                        "$125000 2022 GAM",
                         "$75000 2022 GAM (performance bonus)"
                     ]
                 }
@@ -781,7 +781,7 @@
                 {
                     "club": "Charlotte FC",
                     "assets_acquired": [
-                        "$475000 2021 GAM"
+                        "$475000 2022 GAM"
                     ]
                 }
             ]
@@ -799,7 +799,7 @@
                 {
                     "club": "Charlotte FC",
                     "assets_acquired": [
-                        "$400000 2021 GAM"
+                        "$400000 2022 GAM"
                     ]
                 }
             ]
@@ -811,7 +811,7 @@
                 {
                     "club": "New England",
                     "assets_acquired": [
-                        "$150000 2021 GAM"
+                        "$150000 2022 GAM"
                     ]
                 },
                 {
@@ -829,7 +829,7 @@
                 {
                     "club": "Kansas City",
                     "assets_acquired": [
-                        "$100000 2021 GAM"
+                        "$100000 2022 GAM"
                     ]
                 },
                 {
@@ -883,7 +883,7 @@
                 {
                     "club": "LAFC",
                     "assets_acquired": [
-                        "$50000 2021 GAM"
+                        "$50000 2022 GAM"
                     ]
                 },
                 {
@@ -926,7 +926,7 @@
                 {
                     "club": "Inter Miami",
                     "assets_acquired": [
-                        "$1200000 2021 GAM"
+                        "$1200000 2022 GAM"
                     ]
                 }
             ]
