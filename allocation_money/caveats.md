@@ -13,3 +13,5 @@ If using this data for any purpose, please keep in mind the following caveats:
 - assumes all performance bonuses have been triggered
 - made some assumptions about how AM were distributed across multiple years where it wasn't clear (ex: LAFC's trade for Crepeau)
 - all of this data was manually collected and edited, so human error applies
+
+**Please** don't use this for anything important -- I can't vouch for the data's accuracy as the league keeps allocation money amounts private.
