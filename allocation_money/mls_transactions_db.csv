@@ -1,87 +1,87 @@
 transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,acquired_asset_id,gam_value,asset_year,tam_value
-0,2020-12-29,New York City FC,Player,$250000 2021 GAM,0,250000,2021,0
-0,2020-12-29,New York City FC,Player,$250000 2022 GAM,1,250000,2022,0
-0,2020-12-29,New York City FC,Player,$100000 2022 GAM (performance bonus),2,100000,2022,0
+0,2020-12-29,New York City FC,GAM,$250000 2021 GAM,0,250000,2021,0
+0,2020-12-29,New York City FC,GAM,$250000 2022 GAM,1,250000,2022,0
+0,2020-12-29,New York City FC,GAM,$100000 2022 GAM (performance bonus),2,100000,2022,0
 0,2020-12-29,FC Cincinnati,Player,Ronald Matarrita,3,0,2020,0
-1,2020-12-23,New York Red Bulls,Player,$50000 2021 GAM,4,50000,2021,0
+1,2020-12-23,New York Red Bulls,GAM,$50000 2021 GAM,4,50000,2021,0
 1,2020-12-23,New York Red Bulls,Draft Pick,2021 3rd round pick,5,0,2020,0
 1,2020-12-23,Inter Miami,Player,Patrick Seagrist,6,0,2020,0
 2,2020-12-18,Chicago,Draft Pick,2022 4th round pick (swap),7,0,2020,0
 2,2020-12-18,Charlotte FC,Player,Brandt Bronico,8,0,2020,0
 2,2020-12-18,Charlotte FC,Draft Pick,2022 4th round pick (swap),9,0,2020,0
-3,2020-12-17,New York City FC,Player,$500000 2021 GAM,10,500000,2021,0
-3,2020-12-17,New York City FC,Player,$250000 2022 GAM,11,250000,2022,0
-3,2020-12-17,New York City FC,Player,$500000 2022 GAM (performance bonus),12,500000,2022,0
+3,2020-12-17,New York City FC,GAM,$500000 2021 GAM,10,500000,2021,0
+3,2020-12-17,New York City FC,GAM,$250000 2022 GAM,11,250000,2022,0
+3,2020-12-17,New York City FC,GAM,$500000 2022 GAM (performance bonus),12,500000,2022,0
 3,2020-12-17,Austin FC,Player,Alexander Ring,13,0,2020,0
 4,2020-12-17,Houston,Player,Fafa Picault,14,0,2020,0
-4,2020-12-17,FC Dallas,Player,$275000 2021 GAM,15,275000,2021,0
-4,2020-12-17,FC Dallas,Player,$50000 2021 GAM (performance bonus),16,50000,2021,0
-5,2020-12-17,Chicago,Player,$400000 2021 GAM,17,400000,2021,0
-5,2020-12-17,Chicago,Player,$400000 2022 GAM,18,400000,2022,0
-5,2020-12-17,Chicago,Player,$200000 2022 GAM (performance bonus),19,200000,2022,0
+4,2020-12-17,FC Dallas,GAM,$275000 2021 GAM,15,275000,2021,0
+4,2020-12-17,FC Dallas,GAM,$50000 2021 GAM (performance bonus),16,50000,2021,0
+5,2020-12-17,Chicago,GAM,$400000 2021 GAM,17,400000,2021,0
+5,2020-12-17,Chicago,GAM,$400000 2022 GAM,18,400000,2022,0
+5,2020-12-17,Chicago,GAM,$200000 2022 GAM (performance bonus),19,200000,2022,0
 5,2020-12-17,CF Montreal,Player,Djordje Mihailovic,20,0,2020,0
 6,2020-12-15,CF Montreal,Player,Kamal Miller,21,0,2020,0
-6,2020-12-15,Austin FC,Player,$225000 2021 GAM,22,225000,2021,0
+6,2020-12-15,Austin FC,GAM,$225000 2021 GAM,22,225000,2021,0
 6,2020-12-15,Austin FC,Draft Pick,2021 1st round pick (#11),23,0,2020,0
-7,2020-12-13,Portland,Player,$300000 2021 GAM,24,300000,2021,0
+7,2020-12-13,Portland,GAM,$300000 2021 GAM,24,300000,2021,0
 7,2020-12-13,LAFC,Player,Marco Farfan,25,0,2020,0
-8,2020-12-13,Inter Miami,Player,$100000 2021 GAM,26,100000,2021,0
+8,2020-12-13,Inter Miami,GAM,$100000 2021 GAM,26,100000,2021,0
 8,2020-12-13,Austin FC,Player,Ben Sweat,27,0,2020,0
-9,2020-12-13,Atlanta United,Player,$225000 2021 GAM,28,225000,2021,0
+9,2020-12-13,Atlanta United,GAM,$225000 2021 GAM,28,225000,2021,0
 9,2020-12-13,Austin FC,Player,Jon Gallagher,29,0,2020,0
-10,2020-12-13,San Jose,Player,$500000 2021 GAM,30,500000,2021,0
+10,2020-12-13,San Jose,GAM,$500000 2021 GAM,30,500000,2021,0
 10,2020-12-13,Austin FC,Player,Nick Lima,31,0,2020,0
-11,2020-12-13,Portland,Player,$250000 2021 GAM,32,250000,2021,0
+11,2020-12-13,Portland,GAM,$250000 2021 GAM,32,250000,2021,0
 11,2020-12-13,Austin FC,Player,Julio Cascante,33,0,2020,0
 12,2020-12-13,Columbus Crew,Player,Evan Bush (GK),34,0,2020,0
-12,2020-12-13,Vancouver Whitecaps,Player,$125000 2021 GAM,35,125000,2021,0
+12,2020-12-13,Vancouver Whitecaps,GAM,$125000 2021 GAM,35,125000,2021,0
 13,2020-12-13,FC Dallas,Draft Pick,2022 4th round pick,36,0,2020,0
-13,2020-12-13,FC Dallas,Player,$50000 2021 GAM,37,50000,2021,0
+13,2020-12-13,FC Dallas,GAM,$50000 2021 GAM,37,50000,2021,0
 13,2020-12-13,Minnesota,Player,Callum Montgomery,38,0,2020,0
 14,2020-10-21,Seattle Sounders,Player,Jimmy Medranda,39,0,2020,0
 14,2020-10-21,Nashville,Player,Handwalla Bwana,40,0,2020,0
-14,2020-10-21,Nashville,Player,$225000 2020 GAM,41,225000,2020,0
-14,2020-10-21,Nashville,Player,$25000 2020 GAM (performance bonus),42,25000,2020,0
+14,2020-10-21,Nashville,GAM,$225000 2020 GAM,41,225000,2020,0
+14,2020-10-21,Nashville,GAM,$25000 2020 GAM (performance bonus),42,25000,2020,0
 15,2020-10-01,CF Montreal,Player,Mason Toye,43,0,2020,0
-15,2020-10-01,Minnesota,Player,$600000 2020 GAM,44,600000,2020,0
+15,2020-10-01,Minnesota,GAM,$600000 2020 GAM,44,600000,2020,0
 15,2020-10-01,Minnesota,Draft Pick,2021 2nd round pick,45,0,2020,0
 16,2020-09-28,Seattle Sounders,Player,Roman Torres,46,0,2020,0
 16,2020-09-28,Inter Miami,Draft Pick,2021 1st round pick (conditional),47,0,2020,0
 17,2020-09-28,CF Montreal,Draft Pick,2021 3rd round pick,48,0,2020,0
 17,2020-09-28,Vancouver Whitecaps,Player,Evan Bush (GK),49,0,2020,0
 18,2020-09-19,D.C. United,Player,Yordy Reyna,50,0,2020,0
-18,2020-09-19,Vancouver Whitecaps,Player,$400000 2021 GAM,51,400000,2021,0
-19,2020-09-19,Colorado Rapids,Player,$150000 2021 GAM,52,150000,2021,0
+18,2020-09-19,Vancouver Whitecaps,GAM,$400000 2021 GAM,51,400000,2021,0
+19,2020-09-19,Colorado Rapids,GAM,$150000 2021 GAM,52,150000,2021,0
 19,2020-09-19,Colorado Rapids,Draft Pick,2022 2nd round pick,53,0,2020,0
 19,2020-09-19,Minnesota,Player,Kei Kamara,54,0,2020,0
 20,2020-09-17,Minnesota,Player,Adrian Zendejas (GK),55,0,2020,0
 20,2020-09-17,Nashville,Draft Pick,2021 4th round pick ,56,0,2020,0
-20,2020-09-17,Nashville,Player,$100000 2020 GAM (performance bonus),57,100000,2020,0
+20,2020-09-17,Nashville,GAM,$100000 2020 GAM (performance bonus),57,100000,2020,0
 21,2020-09-08,New England,Player,Lee Nguyen,58,0,2020,0
 21,2020-09-08,Inter Miami,Draft Pick,2021 4th round pick ,59,0,2020,0
-21,2020-09-08,Inter Miami,Player,$50000 2020 GAM,60,50000,2020,0
+21,2020-09-08,Inter Miami,GAM,$50000 2020 GAM,60,50000,2020,0
 22,2020-08-17,New England,Player,Kekuta Manneh,61,0,2020,0
 22,2020-08-17,FC Cincinnati,International Slot,2020 International Slot,62,0,2020,0
 23,2020-08-17,Houston,Player,Wilfried Zahibo,63,0,2020,0
-23,2020-08-17,Houston,Player,$150000 2020 GAM,64,150000,2020,0
-23,2020-08-17,Houston,Player,$25000 2021 GAM,65,25000,2021,0
+23,2020-08-17,Houston,GAM,$150000 2020 GAM,64,150000,2020,0
+23,2020-08-17,Houston,GAM,$25000 2021 GAM,65,25000,2021,0
 23,2020-08-17,New England,Player,Thomas McNamara,66,0,2020,0
-23,2020-08-17,New England,Player,$175000 2020 GAM,67,175000,2020,0
+23,2020-08-17,New England,GAM,$175000 2020 GAM,67,175000,2020,0
 24,2020-08-14,Columbus Crew,Player,Emmanuel Boateng,68,0,2020,0
 24,2020-08-14,D.C. United,Player,Axel Sjoberg,69,0,2020,0
 25,2020-08-13,New York Red Bulls,International Slot,2020 International Slot,70,0,2020,0
 25,2020-08-13,Nashville,Player,Alex Muyl,71,0,2020,0
 26,2020-02-19,Columbus Crew,Player,Andrew Tarbell (GK),72,0,2020,0
-26,2020-02-19,San Jose,Player,$75000 2020 GAM,73,75000,2020,0
+26,2020-02-19,San Jose,GAM,$75000 2020 GAM,73,75000,2020,0
 27,2020-02-12,Columbus Crew,Draft Pick,2021 2nd round pick,74,0,2020,0
 27,2020-02-12,Minnesota,Player,Aaron Schoenfeld,75,0,2020,0
 28,2020-02-11,Chicago,Player,Wyatt Omsberg,76,0,2020,0
 28,2020-02-11,Minnesota,Player,Raheem Edwards,77,0,2020,0
-29,2020-02-11,LAFC,Player,$600000 2020 GAM,78,600000,2020,0
-29,2020-02-11,LAFC,Player,$350000 2021 GAM,79,350000,2021,0
+29,2020-02-11,LAFC,GAM,$600000 2020 GAM,78,600000,2020,0
+29,2020-02-11,LAFC,GAM,$350000 2021 GAM,79,350000,2021,0
 29,2020-02-11,LAFC,International Slot,2020 International Slot,80,0,2020,0
-29,2020-02-11,LAFC,Player,$75000 2020 GAM (performance bonus),81,75000,2020,0
-29,2020-02-11,LAFC,Player,$75000 2021 GAM (performance bonus),82,75000,2021,0
+29,2020-02-11,LAFC,GAM,$75000 2020 GAM (performance bonus),81,75000,2020,0
+29,2020-02-11,LAFC,GAM,$75000 2021 GAM (performance bonus),82,75000,2021,0
 29,2020-02-11,Nashville,Player,Walker Zimmerman,83,0,2020,0
 30,2020-01-29,Vancouver Whitecaps,Player,Bryan Meredith (GK),84,0,2020,0
 30,2020-01-29,Inter Miami,Draft Pick,2021 4th round pick,85,0,2020,0
@@ -91,207 +91,207 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 32,2020-01-21,D.C. United,Draft Pick,2021 3rd round pick,89,0,2020,0
 32,2020-01-21,Minnesota,Player,Jacori Hayes,90,0,2020,0
 33,2020-01-16,Minnesota,Player,Tyler Miller (GK),91,0,2020,0
-33,2020-01-16,LAFC,Player,$150000 2020 GAM,92,150000,2020,0
+33,2020-01-16,LAFC,GAM,$150000 2020 GAM,92,150000,2020,0
 33,2020-01-16,LAFC,TAM,$50000 2021 TAM,93,0,2020,50000
-34,2020-01-13,Philadelphia,Player,$50000 2020 GAM,94,50000,2020,0
+34,2020-01-13,Philadelphia,GAM,$50000 2020 GAM,94,50000,2020,0
 34,2020-01-13,FC Dallas,Player,Kalil ElMedkhar,95,0,2020,0
 35,2020-01-09,CF Montreal,TAM,$75000 2020 TAM,96,0,2020,75000
 35,2020-01-09,Colorado Rapids,Player,Jeremy Kelly,97,0,2020,0
-36,2021-12-27,Nashville,Player,$1000000 2022 GAM,98,1000000,2022,0
+36,2021-12-27,Nashville,GAM,$1000000 2022 GAM,98,1000000,2022,0
 36,2021-12-27,CF Montreal,Player,Alistair Johnston,99,0,2021,0
 37,2021-12-23,Philadelphia,Player,Julian Carranza,100,0,2021,0
 37,2021-12-23,Inter Miami,Draft Pick,2022 2nd round pick (#54),101,0,2021,0
 38,2021-12-17,Atlanta United,Player,Dylan Castanheira (GK),102,0,2021,0
 38,2021-12-17,Inter Miami,Player,Mo Adams,103,0,2021,0
 39,2021-12-16,New York Red Bulls,Player,Dylan Nealis,104,0,2021,0
-39,2021-12-16,Nashville,Player,$125000 2022 GAM,105,125000,2022,0
-39,2021-12-16,Nashville,Player,$75000 2022 GAM (performance bonus),106,75000,2022,0
-40,2021-12-16,Houston,Player,$50000 2022 GAM,107,50000,2022,0
-40,2021-12-16,Houston,Player,$50000 2023 GAM,108,50000,2023,0
+39,2021-12-16,Nashville,GAM,$125000 2022 GAM,105,125000,2022,0
+39,2021-12-16,Nashville,GAM,$75000 2022 GAM (performance bonus),106,75000,2022,0
+40,2021-12-16,Houston,GAM,$50000 2022 GAM,107,50000,2022,0
+40,2021-12-16,Houston,GAM,$50000 2023 GAM,108,50000,2023,0
 40,2021-12-16,Inter Miami,Player,Ariel Lassiter,109,0,2021,0
 41,2021-12-14,Vancouver Whitecaps,Player,Tristan Blackmon,110,0,2021,0
-41,2021-12-14,Charlotte FC,Player,$475000 2022 GAM,111,475000,2022,0
+41,2021-12-14,Charlotte FC,GAM,$475000 2022 GAM,111,475000,2022,0
 42,2021-12-14,LAFC,Player,Ismael Tajouri-Shradi,112,0,2021,0
-42,2021-12-14,Charlotte FC,Player,$400000 2022 GAM,113,400000,2022,0
-43,2021-12-12,New England,Player,$150000 2022 GAM,114,150000,2022,0
+42,2021-12-14,Charlotte FC,GAM,$400000 2022 GAM,113,400000,2022,0
+43,2021-12-12,New England,GAM,$150000 2022 GAM,114,150000,2022,0
 43,2021-12-12,Nashville,Player,Teal Bunbury,115,0,2021,0
-44,2021-12-12,Kansas City,Player,$100000 2022 GAM,116,100000,2022,0
+44,2021-12-12,Kansas City,GAM,$100000 2022 GAM,116,100000,2022,0
 44,2021-12-12,Charlotte FC,Player,Jaylin Lindsey,117,0,2021,0
 45,2021-12-12,Houston,Player,Daniel Steres,118,0,2021,0
 45,2021-12-12,LA Galaxy,Draft Pick,2022 3rd round pick (#60),119,0,2021,0
 46,2021-12-12,LA Galaxy,Draft Pick,2022 1st round pick (#21),120,0,2021,0
 46,2021-12-12,Nashville,Player,Ethan Zubak,121,0,2021,0
-47,2021-12-12,LAFC,Player,$50000 2022 GAM,122,50000,2022,0
+47,2021-12-12,LAFC,GAM,$50000 2022 GAM,122,50000,2022,0
 47,2021-12-12,Charlotte FC,Player,Pablo Sisniega (GK),123,0,2021,0
-48,2021-12-12,Atlanta United,Player,$250000 2022 GAM,124,250000,2022,0
-48,2021-12-12,Atlanta United,Player,$350000 2023 GAM,125,350000,2023,0
+48,2021-12-12,Atlanta United,GAM,$250000 2022 GAM,124,250000,2022,0
+48,2021-12-12,Atlanta United,GAM,$350000 2023 GAM,125,350000,2023,0
 48,2021-12-12,LAFC,Player,Franco Escobar,126,0,2021,0
 49,2021-12-09,New York Red Bulls,Player,Lewis Morgan,127,0,2021,0
-49,2021-12-09,Inter Miami,Player,$1200000 2022 GAM,128,1200000,2022,0
+49,2021-12-09,Inter Miami,GAM,$1200000 2022 GAM,128,1200000,2022,0
 50,2021-08-06,Vancouver Whitecaps,Player,Florian Jungwirth,129,0,2021,0
-50,2021-08-06,San Jose,Player,$200000 2021 GAM,130,200000,2021,0
-50,2021-08-06,San Jose,Player,$100000 2021 GAM (performance bonus),131,100000,2021,0
-51,2021-08-06,New York City FC,Player,$150000 2021 GAM,132,150000,2021,0
-51,2021-08-06,New York City FC,Player,$50000 2021 GAM (performance bonus),133,50000,2021,0
+50,2021-08-06,San Jose,GAM,$200000 2021 GAM,130,200000,2021,0
+50,2021-08-06,San Jose,GAM,$100000 2021 GAM (performance bonus),131,100000,2021,0
+51,2021-08-06,New York City FC,GAM,$150000 2021 GAM,132,150000,2021,0
+51,2021-08-06,New York City FC,GAM,$50000 2021 GAM (performance bonus),133,50000,2021,0
 51,2021-08-06,LAFC,Player,Sebastien Ibeagha,134,0,2021,0
 52,2021-08-05,San Jose,Player,Jeremy Ebobisse,135,0,2021,0
-52,2021-08-05,Portland,Player,$1167000 2021 GAM,136,1167000,2021,0
-53,2021-08-05,New York Red Bulls,Player,$50000 2021 GAM,137,50000,2021,0
-53,2021-08-05,New York Red Bulls,Player,$75000 2022 GAM (performance bonus),138,75000,2022,0
+52,2021-08-05,Portland,GAM,$1167000 2021 GAM,136,1167000,2021,0
+53,2021-08-05,New York Red Bulls,GAM,$50000 2021 GAM,137,50000,2021,0
+53,2021-08-05,New York Red Bulls,GAM,$75000 2022 GAM (performance bonus),138,75000,2022,0
 53,2021-08-05,FC Cincinnati,Player,Florian Valot,139,0,2021,0
 54,2021-08-05,Seattle Sounders,Player,Nicolas Benezet,140,0,2021,0
-54,2021-08-05,Colorado Rapids,Player,$50000 2021 GAM,141,50000,2021,0
-54,2021-08-05,Colorado Rapids,Player,$50000 2021 GAM (performance bonus),142,50000,2021,0
+54,2021-08-05,Colorado Rapids,GAM,$50000 2021 GAM,141,50000,2021,0
+54,2021-08-05,Colorado Rapids,GAM,$50000 2021 GAM (performance bonus),142,50000,2021,0
 55,2021-07-30,Houston,Player,Corey Baird,143,0,2021,0
-55,2021-07-30,LAFC,Player,$68675 2021 GAM,144,68675,2021,0
-55,2021-07-30,LAFC,Player,$681325 2022 GAM,145,681325,2022,0
+55,2021-07-30,LAFC,GAM,$68675 2021 GAM,144,68675,2021,0
+55,2021-07-30,LAFC,GAM,$681325 2022 GAM,145,681325,2022,0
 55,2021-07-30,LAFC,International Slot,2021 International Slot,146,0,2021,0
 56,2021-07-29,Colorado Rapids,Player,Dominique Badji,147,0,2021,0
-56,2021-07-29,Nashville,Player,$50000 2022 GAM,148,50000,2022,0
+56,2021-07-29,Nashville,GAM,$50000 2022 GAM,148,50000,2022,0
 57,2021-07-28,Colorado Rapids,Player,Mark-Anthony Kaye,149,0,2021,0
 57,2021-07-28,Colorado Rapids,Draft Pick,2022 1st round pick,150,0,2021,0
-57,2021-07-28,LAFC,Player,$1000000 2021 GAM,151,1000000,2021,0
+57,2021-07-28,LAFC,GAM,$1000000 2021 GAM,151,1000000,2021,0
 57,2021-07-28,LAFC,International Slot,2021 International Slot,152,0,2021,0
 58,2021-07-08,Columbus Crew,Player,Erik Hurtado,153,0,2021,0
-58,2021-07-08,CF Montreal,Player,$200000 2021 GAM,154,200000,2021,0
+58,2021-07-08,CF Montreal,GAM,$200000 2021 GAM,154,200000,2021,0
 59,2021-07-06,Atlanta United,Player,Amar Sejdic,155,0,2021,0
-59,2021-07-06,CF Montreal,Player,$100000 2021 GAM,156,100000,2021,0
-59,2021-07-06,CF Montreal,Player,$50000 2021 GAM (performance bonus),157,50000,2021,0
-60,2021-06-02,New York Red Bulls,Player,$400000 2021 GAM,158,400000,2021,0
-60,2021-06-02,New York Red Bulls,Player,$100000 2021 GAM (performance bonus),159,100000,2021,0
+59,2021-07-06,CF Montreal,GAM,$100000 2021 GAM,156,100000,2021,0
+59,2021-07-06,CF Montreal,GAM,$50000 2021 GAM (performance bonus),157,50000,2021,0
+60,2021-06-02,New York Red Bulls,GAM,$400000 2021 GAM,158,400000,2021,0
+60,2021-06-02,New York Red Bulls,GAM,$100000 2021 GAM (performance bonus),159,100000,2021,0
 60,2021-06-02,Vancouver Whitecaps,Player,Brian White,160,0,2021,0
 61,2021-04-30,New York Red Bulls,Draft Pick,2022 3rd round pick,161,0,2021,0
 61,2021-04-30,Minnesota,Player,Aziel Jackson,162,0,2021,0
 62,2021-04-20,New York Red Bulls,Player,Frankie Amaya,163,0,2021,0
-62,2021-04-20,FC Cincinnati,Player,$950000 2021 GAM,164,950000,2021,0
-62,2021-04-20,FC Cincinnati,Player,$125000 2021 GAM (performance bonus),165,125000,2021,0
+62,2021-04-20,FC Cincinnati,GAM,$950000 2021 GAM,164,950000,2021,0
+62,2021-04-20,FC Cincinnati,GAM,$125000 2021 GAM (performance bonus),165,125000,2021,0
 63,2021-04-11,Nashville,Player,Dylan Nealis,166,0,2021,0
-63,2021-04-11,Inter Miami,Player,$175000 2021 GAM,167,175000,2021,0
-63,2021-04-11,Inter Miami,Player,$50000 2021 GAM (performance bonus),168,50000,2021,0
+63,2021-04-11,Inter Miami,GAM,$175000 2021 GAM,167,175000,2021,0
+63,2021-04-11,Inter Miami,GAM,$50000 2021 GAM (performance bonus),168,50000,2021,0
 64,2021-03-09,FC Dallas,Draft Pick,2022 3rd round pick,169,0,2021,0
 64,2021-03-09,LAFC,Player,Cal Jennings,170,0,2021,0
 65,2021-03-09,New York Red Bulls,Draft Pick,2024 3rd round pick (ATL pick),171,0,2021,0
-65,2021-03-09,New York Red Bulls,Player,$50000 2022 GAM,172,50000,2022,0
+65,2021-03-09,New York Red Bulls,GAM,$50000 2022 GAM,172,50000,2022,0
 65,2021-03-09,Atlanta United,Player,Andrew Gutman,173,0,2021,0
-66,2021-03-04,D.C. United,Player,$75000 2021 GAM,174,75000,2021,0
-66,2021-03-04,D.C. United,Player,$25000 2021 GAM (performance bonus),175,25000,2021,0
+66,2021-03-04,D.C. United,GAM,$75000 2021 GAM,174,75000,2021,0
+66,2021-03-04,D.C. United,GAM,$25000 2021 GAM (performance bonus),175,25000,2021,0
 66,2021-03-04,Colorado Rapids,Player,Michael Edwards,176,0,2021,0
-67,2021-02-22,Seattle Sounders,Player,$50000 2021 GAM,177,50000,2021,0
+67,2021-02-22,Seattle Sounders,GAM,$50000 2021 GAM,177,50000,2021,0
 67,2021-02-22,Nashville,Player,Nick Hinds,178,0,2021,0
 68,2021-02-15,San Jose,Player,Eric Remedi,179,0,2021,0
-68,2021-02-15,Atlanta United,Player,$200000 2021 GAM,180,200000,2021,0
-68,2021-02-15,Atlanta United,Player,$100000 2021 GAM (performance bonus),181,100000,2021,0
+68,2021-02-15,Atlanta United,GAM,$200000 2021 GAM,180,200000,2021,0
+68,2021-02-15,Atlanta United,GAM,$100000 2021 GAM (performance bonus),181,100000,2021,0
 69,2021-01-28,CF Montreal,Player,Andrew Booth,182,0,2021,0
 69,2021-01-28,Minnesota,Player,Jukka Raitala,183,0,2021,0
 70,2021-01-21,Houston,Player,Derrick Jones,184,0,2021,0
-70,2021-01-21,Nashville,Player,$250000 2021 GAM,185,250000,2021,0
+70,2021-01-21,Nashville,GAM,$250000 2021 GAM,185,250000,2021,0
 71,2021-01-19,Houston,Player,Tim Parker,186,0,2021,0
-71,2021-01-19,New York Red Bulls,Player,$450000 2021 GAM,187,450000,2021,0
+71,2021-01-19,New York Red Bulls,GAM,$450000 2021 GAM,187,450000,2021,0
 72,2021-01-18,Houston,Player,Maximiliano Urruti,188,0,2021,0
 72,2021-01-18,CF Montreal,Player,Aljaz Struna,189,0,2021,0
 73,2021-01-12,Portland,Draft Pick,2021 1st round pick (#8),190,0,2021,0
 73,2021-01-12,LA Galaxy,Player,Jorge Villafaña,191,0,2021,0
 73,2021-01-12,LA Galaxy,Draft Pick,2021 1st round pick (#17),192,0,2021,0
-74,2021-01-11,Real Salt Lake,Player,$500000 2021 GAM,193,500000,2021,0
+74,2021-01-11,Real Salt Lake,GAM,$500000 2021 GAM,193,500000,2021,0
 74,2021-01-11,Real Salt Lake,International Slot,2021 International Slot,194,0,2021,0
 74,2021-01-11,LAFC,Player,Corey Baird,195,0,2021,0
 75,2021-01-08,Columbus Crew,Draft Pick,2021 3rd round pick (#58),196,0,2021,0
 75,2021-01-08,D.C. United,Player,Jon Kempin (GK),197,0,2021,0
-76,2022-06-22,Nashville,Player,$175000 2023 GAM,198,175000,2023,0
+76,2022-06-22,Nashville,GAM,$175000 2023 GAM,198,175000,2023,0
 76,2022-06-22,Nashville,Draft Pick,2023 3rd round pick,199,0,2022,0
 76,2022-06-22,Atlanta United,International Slot,2022 International Slot,200,0,2022,0
-77,2022-06-22,Seattle Sounders,Player,$175000 2023 GAM,201,175000,2023,0
+77,2022-06-22,Seattle Sounders,GAM,$175000 2023 GAM,201,175000,2023,0
 77,2022-06-22,Atlanta United,International Slot,2022 International Slot,202,0,2022,0
 78,2022-05-06,Orlando City,Player,Jake Mulraney,203,0,2022,0
-78,2022-05-06,Atlanta United,Player,$100000 2022 GAM,204,100000,2022,0
-78,2022-05-06,Atlanta United,Player,$175000 2023 GAM (performance bonus),205,175000,2023,0
+78,2022-05-06,Atlanta United,GAM,$100000 2022 GAM,204,100000,2022,0
+78,2022-05-06,Atlanta United,GAM,$175000 2023 GAM (performance bonus),205,175000,2023,0
 79,2022-05-04,LA Galaxy,Player,Chase Gasper,206,0,2022,0
-79,2022-05-04,Minnesota,Player,$450000 2023 GAM,207,450000,2023,0
-79,2022-05-04,Minnesota,Player,$300000 2023 GAM (performance bonus),208,300000,2023,0
-80,2022-05-03,Colorado Rapids,Player,$225000 2022 GAM,209,225000,2022,0
-80,2022-05-03,Colorado Rapids,Player,$175000 2022 GAM (performance bonus),210,175000,2022,0
+79,2022-05-04,Minnesota,GAM,$450000 2023 GAM,207,450000,2023,0
+79,2022-05-04,Minnesota,GAM,$300000 2023 GAM (performance bonus),208,300000,2023,0
+80,2022-05-03,Colorado Rapids,GAM,$225000 2022 GAM,209,225000,2022,0
+80,2022-05-03,Colorado Rapids,GAM,$175000 2022 GAM (performance bonus),210,175000,2022,0
 80,2022-05-03,Colorado Rapids,Player,50% trade fee,211,0,2022,0
 80,2022-05-03,Charlotte FC,Player,Andre Shinyashiki,212,0,2022,0
-81,2022-04-22,Columbus Crew,Player,$300000 2022 GAM,213,300000,2022,0
-81,2022-04-22,Columbus Crew,Player,$1100000 2022 GAM (performance bonus),214,1100000,2022,0
+81,2022-04-22,Columbus Crew,GAM,$300000 2022 GAM,213,300000,2022,0
+81,2022-04-22,Columbus Crew,GAM,$1100000 2022 GAM (performance bonus),214,1100000,2022,0
 81,2022-04-22,Colorado Rapids,Player,Gyasi Zardes,215,0,2022,0
 82,2022-03-29,Colorado Rapids,Player,Gustavo Vallecilla,216,0,2022,0
-82,2022-03-29,FC Cincinnati,Player,$400000 2022 GAM,217,400000,2022,0
-82,2022-03-29,FC Cincinnati,Player,$400000 2023 GAM,218,400000,2023,0
+82,2022-03-29,FC Cincinnati,GAM,$400000 2022 GAM,217,400000,2022,0
+82,2022-03-29,FC Cincinnati,GAM,$400000 2023 GAM,218,400000,2023,0
 83,2022-03-17,Toronto FC,Player,Sean O'Hearn,219,0,2022,0
-83,2022-03-17,Toronto FC,Player,$50000 2022 GAM,220,50000,2022,0
+83,2022-03-17,Toronto FC,GAM,$50000 2022 GAM,220,50000,2022,0
 83,2022-03-17,Minnesota,Player,Kemar Lawrence,221,0,2022,0
-84,2022-03-03,Portland,Player,$100000 2022 GAM,222,100000,2022,0
+84,2022-03-03,Portland,GAM,$100000 2022 GAM,222,100000,2022,0
 84,2022-03-03,FC Dallas,Player,Joshué Quiñónez,223,0,2022,0
 85,2022-02-27,Houston,Player,Xavier Valdez (GK),224,0,2022,0
-85,2022-02-27,New York Red Bulls,Player,$50000 2022 GAM,225,50000,2022,0
-85,2022-02-27,New York City FC,Player,$50000 2022 GAM,226,50000,2022,0
-86,2022-02-25,D.C. United,Player,$250000 2022 GAM,227,250000,2022,0
-86,2022-02-25,D.C. United,Player,$175000 2022 GAM (performance bonus),228,175000,2022,0
+85,2022-02-27,New York Red Bulls,GAM,$50000 2022 GAM,225,50000,2022,0
+85,2022-02-27,New York City FC,GAM,$50000 2022 GAM,226,50000,2022,0
+86,2022-02-25,D.C. United,GAM,$250000 2022 GAM,227,250000,2022,0
+86,2022-02-25,D.C. United,GAM,$175000 2022 GAM (performance bonus),228,175000,2022,0
 86,2022-02-25,FC Cincinnati,Player,Junior Moreno,229,0,2022,0
-87,2022-02-25,New York City FC,Player,$50000 2022 GAM,230,50000,2022,0
-87,2022-02-25,New York City FC,Player,$25000 2022 GAM (performance bonus),231,25000,2022,0
+87,2022-02-25,New York City FC,GAM,$50000 2022 GAM,230,50000,2022,0
+87,2022-02-25,New York City FC,GAM,$25000 2022 GAM (performance bonus),231,25000,2022,0
 87,2022-02-25,FC Cincinnati,Player,Harrison Robledo,232,0,2022,0
-88,2022-02-24,Nashville,Player,$350000 2022 GAM,233,350000,2022,0
-88,2022-02-24,Nashville,Player,$150000 2023 GAM (performance bonus),234,150000,2023,0
+88,2022-02-24,Nashville,GAM,$350000 2022 GAM,233,350000,2022,0
+88,2022-02-24,Nashville,GAM,$150000 2023 GAM (performance bonus),234,150000,2023,0
 88,2022-02-24,Charlotte FC,Player,Daniel Rios,235,0,2022,0
 89,2022-02-16,Minnesota,Player,Kervin Arriaga,236,0,2022,0
-89,2022-02-16,Austin FC,Player,$50000 2022 GAM,237,50000,2022,0
-89,2022-02-16,Austin FC,Player,$50000 2023 GAM,238,50000,2023,0
+89,2022-02-16,Austin FC,GAM,$50000 2022 GAM,237,50000,2022,0
+89,2022-02-16,Austin FC,GAM,$50000 2023 GAM,238,50000,2023,0
 90,2022-02-14,Chicago,Draft Pick,2023 3rd round pick (SEA pick),239,0,2022,0
 90,2022-02-14,Seattle Sounders,Player,Jackson Ragen,240,0,2022,0
-91,2022-02-14,Philadelphia,Player,$250000 2022 GAM,241,250000,2022,0
-91,2022-02-14,Philadelphia,Player,$200000 2022 GAM (performance bonus),242,200000,2022,0
+91,2022-02-14,Philadelphia,GAM,$250000 2022 GAM,241,250000,2022,0
+91,2022-02-14,Philadelphia,GAM,$200000 2022 GAM (performance bonus),242,200000,2022,0
 91,2022-02-14,Philadelphia,International Slot,2022 International Slot,243,0,2022,0
 91,2022-02-14,San Jose,Player,Jamiro Monteiro,244,0,2022,0
 92,2022-02-10,FC Dallas,Player,Marco Farfan,245,0,2022,0
 92,2022-02-10,LAFC,Player,Ryan Hollingshead,246,0,2022,0
-93,2022-02-04,Columbus Crew,Player,$50000 2022 GAM,247,50000,2022,0
+93,2022-02-04,Columbus Crew,GAM,$50000 2022 GAM,247,50000,2022,0
 93,2022-02-04,Vancouver Whitecaps,Player,Sebastian Berhalter,248,0,2022,0
 94,2022-01-27,D.C. United,Player,Bradley Smith,249,0,2022,0
-94,2022-01-27,Seattle Sounders,Player,$750000 2022 GAM,250,750000,2022,0
+94,2022-01-27,Seattle Sounders,GAM,$750000 2022 GAM,250,750000,2022,0
 94,2022-01-27,Seattle Sounders,Sell-On Clause,10% sell-on fee beyond MLS,251,0,2022,0
-95,2022-01-26,D.C. United,Player,$2000000 2022 GAM,252,2000000,2022,0
-95,2022-01-26,D.C. United,Player,$300000 2022 GAM (performance bonus),253,300000,2022,0
+95,2022-01-26,D.C. United,GAM,$2000000 2022 GAM,252,2000000,2022,0
+95,2022-01-26,D.C. United,GAM,$300000 2022 GAM (performance bonus),253,300000,2022,0
 95,2022-01-26,D.C. United,Sell-On Clause,30% sell-on clause,254,0,2022,0
 95,2022-01-26,FC Dallas,Player,Paul Arriola,255,0,2022,0
 96,2022-01-25,Chicago,Draft Pick,2022 2nd round pick,256,0,2022,0
 96,2022-01-25,Austin FC,Player,Damian Las (GK),257,0,2022,0
 96,2022-01-25,Austin FC,Draft Pick,2022 2nd round pick,258,0,2022,0
 97,2022-01-22,Chicago,Player,Kacper Przybylko,259,0,2022,0
-97,2022-01-22,Philadelphia,Player,$1575000 2022 GAM,260,1575000,2022,0
-97,2022-01-22,Philadelphia,Player,$1575000 2023 GAM,261,1575000,2023,0
+97,2022-01-22,Philadelphia,GAM,$1575000 2022 GAM,260,1575000,2022,0
+97,2022-01-22,Philadelphia,GAM,$1575000 2023 GAM,261,1575000,2023,0
 98,2022-01-21,Columbus Crew,Player,Williams Sands,262,0,2022,0
-98,2022-01-21,New York City FC,Player,$50000 2022 GAM,263,50000,2022,0
-98,2022-01-21,New York City FC,Player,$75000 2022 GAM (performance bonus),264,75000,2022,0
-99,2022-01-21,Toronto FC,Player,$400000 2022 GAM,265,400000,2022,0
-99,2022-01-21,Toronto FC,Player,$100000 2022 GAM (performance bonus),266,100000,2022,0
+98,2022-01-21,New York City FC,GAM,$50000 2022 GAM,263,50000,2022,0
+98,2022-01-21,New York City FC,GAM,$75000 2022 GAM (performance bonus),264,75000,2022,0
+99,2022-01-21,Toronto FC,GAM,$400000 2022 GAM,265,400000,2022,0
+99,2022-01-21,Toronto FC,GAM,$100000 2022 GAM (performance bonus),266,100000,2022,0
 99,2022-01-21,LA Galaxy,Player,Marco Delgado,267,0,2022,0
-100,2022-01-20,Vancouver Whitecaps,Player,$250000 2022 GAM,268,250000,2022,0
-100,2022-01-20,Vancouver Whitecaps,Player,$250000 2023 GAM,269,250000,2023,0
-100,2022-01-20,Vancouver Whitecaps,Player,$250000 2024 GAM,270,250000,2024,0
-100,2022-01-20,Vancouver Whitecaps,Player,$250000 2025 GAM,271,250000,2025,0
+100,2022-01-20,Vancouver Whitecaps,GAM,$250000 2022 GAM,268,250000,2022,0
+100,2022-01-20,Vancouver Whitecaps,GAM,$250000 2023 GAM,269,250000,2023,0
+100,2022-01-20,Vancouver Whitecaps,GAM,$250000 2024 GAM,270,250000,2024,0
+100,2022-01-20,Vancouver Whitecaps,GAM,$250000 2025 GAM,271,250000,2025,0
 100,2022-01-20,Vancouver Whitecaps,Draft Pick,2025 1st round pick,272,0,2022,0
 100,2022-01-20,LAFC,Player,Maxime Crépeau (GK),273,0,2022,0
 101,2022-01-14,Columbus Crew,Player,Jake Morris,274,0,2022,0
-101,2022-01-14,Seattle Sounders,Player,$50000 2022 GAM,275,50000,2022,0
-102,2022-01-14,Colorado Rapids,Player,$1100000 2022 GAM,276,1100000,2022,0
-102,2022-01-14,Colorado Rapids,Player,$400000 2022 GAM (performance bonus),277,400000,2022,0
+101,2022-01-14,Seattle Sounders,GAM,$50000 2022 GAM,275,50000,2022,0
+102,2022-01-14,Colorado Rapids,GAM,$1100000 2022 GAM,276,1100000,2022,0
+102,2022-01-14,Colorado Rapids,GAM,$400000 2022 GAM (performance bonus),277,400000,2022,0
 102,2022-01-14,LAFC,Player,Kellyn Acosta,278,0,2022,0
 103,2022-01-10,Inter Miami,Player,No. 1 Allocation Ranking spot,279,0,2022,0
 103,2022-01-10,Charlotte FC,Player,Christian Makoun,280,0,2022,0
 103,2022-01-10,Charlotte FC,Player,No. 9 Allocation Ranking spot,281,0,2022,0
-104,2022-01-10,Toronto FC,Player,$50000 2022 GAM,282,50000,2022,0
+104,2022-01-10,Toronto FC,GAM,$50000 2022 GAM,282,50000,2022,0
 104,2022-01-10,FC Dallas,Player,Dom Dwyer,283,0,2022,0
 104,2022-01-10,FC Dallas,Draft Pick,2022 1st round pick (#3),284,0,2022,0
-105,2022-01-06,Seattle Sounders,Player,$50000 2022 GAM,285,50000,2022,0
-105,2022-01-06,Seattle Sounders,Player,$50000 2022 GAM (performance bonus),286,50000,2022,0
+105,2022-01-06,Seattle Sounders,GAM,$50000 2022 GAM,285,50000,2022,0
+105,2022-01-06,Seattle Sounders,GAM,$50000 2022 GAM (performance bonus),286,50000,2022,0
 105,2022-01-06,Charlotte FC,Player,Chris Hegardt,287,0,2022,0
-106,2022-01-05,Columbus Crew,Player,$300000 2022 GAM,288,300000,2022,0
-106,2022-01-05,Columbus Crew,Player,$150000 2022 GAM (performance bonus),289,150000,2022,0
+106,2022-01-05,Columbus Crew,GAM,$300000 2022 GAM,288,300000,2022,0
+106,2022-01-05,Columbus Crew,GAM,$150000 2022 GAM (performance bonus),289,150000,2022,0
 106,2022-01-05,Colorado Rapids,Player,Aboubacar Keita,290,0,2022,0
-107,2022-01-04,LAFC,Player,$100000 2022 GAM,291,100000,2022,0
-107,2022-01-04,LAFC,Player,$75000 2022 GAM (performance bonus),292,75000,2022,0
+107,2022-01-04,LAFC,GAM,$100000 2022 GAM,291,100000,2022,0
+107,2022-01-04,LAFC,GAM,$75000 2022 GAM (performance bonus),292,75000,2022,0
 107,2022-01-04,Inter Miami,Player,Bryce Duke,293,0,2022,0
 108,2018-12-28,Chicago,Draft Pick,2020 4th round pick,294,0,2018,0
 108,2018-12-28,Seattle Sounders,Player,Jonathan Campbell,295,0,2018,0
@@ -299,12 +299,12 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 109,2018-12-27,Orlando City,TAM,$50000 2019 TAM,297,0,2018,50000
 110,2018-12-19,D.C. United,Player,"Earl Edwards, Jr.",298,0,2018,0
 110,2018-12-19,Orlando City,Draft Pick,2019 2nd round pick (#38),299,0,2018,0
-111,2018-12-19,Philadelphia,Player,$150000 2019 GAM,300,150000,2019,0
+111,2018-12-19,Philadelphia,GAM,$150000 2019 GAM,300,150000,2019,0
 111,2018-12-19,Philadelphia,TAM,$50000 2020 TAM,301,0,2018,50000
-111,2018-12-19,Philadelphia,Player,$100000 2020 GAM,302,100000,2020,0
+111,2018-12-19,Philadelphia,GAM,$100000 2020 GAM,302,100000,2020,0
 111,2018-12-19,Colorado Rapids,Player,Keegan Rosenberry,303,0,2018,0
 112,2018-12-18,Kansas City,Player,Kelyn Rowe,304,0,2018,0
-112,2018-12-18,Kansas City,Player,$200000 2019 GAM,305,200000,2019,0
+112,2018-12-18,Kansas City,GAM,$200000 2019 GAM,305,200000,2019,0
 112,2018-12-18,Kansas City,TAM,$100000 2019 TAM,306,0,2018,100000
 112,2018-12-18,Colorado Rapids,Player,Diego Rubio Kostner,307,0,2018,0
 113,2018-12-18,New England,Player,Edgar Castillo,308,0,2018,0
@@ -316,13 +316,13 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 115,2018-12-14,Vancouver Whitecaps,Draft Pick,2021 1st round pick,314,0,2018,0
 116,2018-12-12,New York City FC,Player,Tony Rocha,315,0,2018,0
 116,2018-12-12,Orlando City,Draft Pick,2019 4th round pick,316,0,2018,0
-117,2018-12-12,FC Dallas,Player,$150000 2019 GAM,317,150000,2019,0
+117,2018-12-12,FC Dallas,GAM,$150000 2019 GAM,317,150000,2019,0
 117,2018-12-12,FC Cincinnati,Player,Victor Ulloa,318,0,2018,0
-118,2018-12-11,Vancouver Whitecaps,Player,$450000 2019 GAM,319,450000,2019,0
+118,2018-12-11,Vancouver Whitecaps,GAM,$450000 2019 GAM,319,450000,2019,0
 118,2018-12-11,Vancouver Whitecaps,TAM,$300000 2019 TAM,320,0,2018,300000
 118,2018-12-11,Vancouver Whitecaps,International Slot,2019 International Slot,321,0,2018,0
 118,2018-12-11,FC Cincinnati,Player,Kendall Waston,322,0,2018,0
-119,2018-12-11,Atlanta United,Player,$200000 2019 GAM,323,200000,2019,0
+119,2018-12-11,Atlanta United,GAM,$200000 2019 GAM,323,200000,2019,0
 119,2018-12-11,Atlanta United,TAM,$250000 2019 TAM,324,0,2018,250000
 119,2018-12-11,FC Cincinnati,Player,Greg Garza,325,0,2018,0
 120,2018-12-11,Orlando City,Player,João Moutinho,326,0,2018,0
@@ -347,19 +347,19 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 128,2018-08-08,CF Montreal,Player,Quincy Amarikwa,345,0,2018,0
 128,2018-08-08,San Jose,Player,Dominic Oduro,346,0,2018,0
 129,2018-08-08,D.C. United,Player,Vytautas Andriuskevicius,347,0,2018,0
-129,2018-08-08,Portland,Player,$50000 GAM,348,0,2018,0
+129,2018-08-08,Portland,GAM,$50000 GAM,348,0,2018,0
 130,2018-08-08,CF Montreal,Player,Michael Azira,349,0,2018,0
 130,2018-08-08,Colorado Rapids,Draft Pick,2020 4th round pick,350,0,2018,0
 131,2018-08-06,Kansas City,Player,Krisztian Nemeth,351,0,2018,0
 131,2018-08-06,New England,TAM,$250000 2018 TAM,352,0,2018,250000
-131,2018-08-06,New England,Player,$100000 2018 GAM,353,100000,2018,0
+131,2018-08-06,New England,GAM,$100000 2018 GAM,353,100000,2018,0
 131,2018-08-06,New England,Draft Pick,2020 1st round pick,354,0,2018,0
 132,2018-08-03,Columbus Crew,Player,Justin Meram,355,0,2018,0
 132,2018-08-03,Orlando City,TAM,$750000 2018 TAM,356,0,2018,750000
 132,2018-08-03,Orlando City,Player,2019 international slot,357,0,2018,0
-133,2018-07-30,San Jose,Player,$135000 2018 GAM,358,135000,2018,0
+133,2018-07-30,San Jose,GAM,$135000 2018 GAM,358,135000,2018,0
 133,2018-07-30,FC Cincinnati,Player,Fatai Alashe,359,0,2018,0
-134,2018-07-30,Portland,Player,$450000 2019 GAM,360,450000,2019,0
+134,2018-07-30,Portland,GAM,$450000 2019 GAM,360,450000,2019,0
 134,2018-07-30,Portland,TAM,$400000 2019 TAM,361,0,2018,400000
 134,2018-07-30,Portland,TAM,$100000 2019 TAM (performance bonus),362,0,2018,100000
 134,2018-07-30,FC Cincinnati,Player,Fanendo Adi,363,0,2018,0
@@ -370,34 +370,34 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 136,2018-07-12,D.C. United,TAM,$150000 2018 TAM,368,0,2018,150000
 137,2018-05-01,Colorado Rapids,Player,Sam Nicholson,369,0,2018,0
 137,2018-05-01,Minnesota,Player,Eric Miller,370,0,2018,0
-137,2018-05-01,Minnesota,Player,$50000 2018 GAM,371,50000,2018,0
+137,2018-05-01,Minnesota,GAM,$50000 2018 GAM,371,50000,2018,0
 138,2018-03-28,Houston,Player,Jared Watts,372,0,2018,0
 138,2018-03-28,Colorado Rapids,TAM,$100000 2018 TAM,373,0,2018,100000
 139,2018-03-02,New York Red Bulls,Player,Tim Parker,374,0,2018,0
 139,2018-03-02,Vancouver Whitecaps,Player,Felipe,375,0,2018,0
-139,2018-03-02,Vancouver Whitecaps,Player,$225000 2018 GAM,376,225000,2018,0
-139,2018-03-02,Vancouver Whitecaps,Player,$275000 2019 GAM,377,275000,2019,0
+139,2018-03-02,Vancouver Whitecaps,GAM,$225000 2018 GAM,376,225000,2018,0
+139,2018-03-02,Vancouver Whitecaps,GAM,$275000 2019 GAM,377,275000,2019,0
 139,2018-03-02,Vancouver Whitecaps,International Slot,2018 International Slot,378,0,2018,0
 140,2018-02-13,D.C. United,Player,Yamil Asad,379,0,2018,0
 140,2018-02-13,Atlanta United,TAM,$200000 2018 TAM,380,0,2018,200000
-140,2018-02-13,Atlanta United,Player,$300000 2018 GAM,381,300000,2018,0
+140,2018-02-13,Atlanta United,GAM,$300000 2018 GAM,381,300000,2018,0
 141,2018-02-08,Kansas City,Draft Pick,2020 2nd round pick,382,0,2018,0
 141,2018-02-08,Colorado Rapids,Player,Andrew Dykstra,383,0,2018,0
 142,2018-02-07,D.C. United,Player,Oniel Fisher,384,0,2018,0
-142,2018-02-07,Seattle Sounders,Player,$50000 2018 GAM,385,50000,2018,0
+142,2018-02-07,Seattle Sounders,GAM,$50000 2018 GAM,385,50000,2018,0
 143,2018-01-29,Columbus Crew,TAM,$700000 2018 TAM,386,0,2018,700000
-143,2018-01-29,Columbus Crew,Player,$300000 2018 GAM,387,300000,2018,0
+143,2018-01-29,Columbus Crew,GAM,$300000 2018 GAM,387,300000,2018,0
 143,2018-01-29,Columbus Crew,International Slot,2018 International Slot,388,0,2018,0
 143,2018-01-29,Orlando City,Player,Justin Meram,389,0,2018,0
 144,2018-01-20,Columbus Crew,Player,Gyasi Zardes,390,0,2018,0
 144,2018-01-20,Columbus Crew,TAM,$400000 2018 TAM,391,0,2018,400000
 144,2018-01-20,LA Galaxy,Player,Ola Kamara,392,0,2018,0
-145,2018-01-19,Chicago,Player,$1200000 2018 GAM,393,1200000,2018,0
+145,2018-01-19,Chicago,GAM,$1200000 2018 GAM,393,1200000,2018,0
 145,2018-01-19,Philadelphia,Player,David Accam,394,0,2018,0
 146,2018-01-19,Chicago,Draft Pick,2018 5th round pick,395,0,2018,0
 146,2018-01-19,Minnesota,Player,Matt Lampson,396,0,2018,0
 146,2018-01-19,Minnesota,Draft Pick,2018 5th round pick,397,0,2018,0
-146,2018-01-19,Minnesota,Player,$75000 2018 GAM,398,75000,2018,0
+146,2018-01-19,Minnesota,GAM,$75000 2018 GAM,398,75000,2018,0
 146,2018-01-19,Minnesota,TAM,$100000 2018 TAM,399,0,2018,100000
 147,2018-01-18,Chicago,Player,Rafael Ramos,400,0,2018,0
 147,2018-01-18,Orlando City,Player,Cam Lindley,401,0,2018,0
@@ -409,52 +409,52 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 149,2018-01-03,New York Red Bulls,Player,Tommy Redding,407,0,2018,0
 149,2018-01-03,Orlando City,Player,Sacha Kljestan,408,0,2018,0
 149,2018-01-03,Orlando City,TAM,$150000 2018 TAM,409,0,2018,150000
-150,2019-12-17,Vancouver Whitecaps,Player,$50000 2020 GAM,410,50000,2020,0
+150,2019-12-17,Vancouver Whitecaps,GAM,$50000 2020 GAM,410,50000,2020,0
 150,2019-12-17,Real Salt Lake,Player,Zak MacMath,411,0,2019,0
-151,2019-12-12,LA Galaxy,Player,$50000 2020 GAM,412,50000,2020,0
+151,2019-12-12,LA Galaxy,GAM,$50000 2020 GAM,412,50000,2020,0
 151,2019-12-12,FC Cincinnati,Player,Zico Bailey,413,0,2019,0
 152,2019-12-02,FC Dallas,TAM,$175000 2020 TAM,414,0,2019,175000
-152,2019-12-02,FC Dallas,Player,$150000 2020 GAM,415,150000,2020,0
-152,2019-12-02,FC Dallas,Player,$75000 2020 GAM (performance bonus),416,75000,2020,0
+152,2019-12-02,FC Dallas,GAM,$150000 2020 GAM,415,150000,2020,0
+152,2019-12-02,FC Dallas,GAM,$75000 2020 GAM (performance bonus),416,75000,2020,0
 152,2019-12-02,Nashville,Player,Dominique Badji,417,0,2019,0
 153,2019-12-02,Real Salt Lake,TAM,$150000 2020 TAM,418,0,2019,150000
-153,2019-12-02,Real Salt Lake,Player,$150000 2020 GAM,419,150000,2020,0
+153,2019-12-02,Real Salt Lake,GAM,$150000 2020 GAM,419,150000,2020,0
 153,2019-12-02,Atlanta United,Player,Brooks Lennon,420,0,2019,0
-154,2019-11-26,Philadelphia,Player,$300000 2020 GAM,421,300000,2020,0
+154,2019-11-26,Philadelphia,GAM,$300000 2020 GAM,421,300000,2020,0
 154,2019-11-26,FC Dallas,Player,Fafa Picault,422,0,2019,0
 155,2019-11-26,Chicago,Draft Pick,2020 1st round pick (#26),423,0,2019,0
 155,2019-11-26,Seattle Sounders,Player,Stefan Cleveland,424,0,2019,0
 155,2019-11-26,Seattle Sounders,Draft Pick,2020 2nd round pick (#35),425,0,2019,0
 156,2019-11-20,Houston,Player,Victor Cabrera,426,0,2019,0
-156,2019-11-20,Houston,Player,$100000 2020 GAM,427,100000,2020,0
+156,2019-11-20,Houston,GAM,$100000 2020 GAM,427,100000,2020,0
 156,2019-11-20,CF Montreal,Player,Romell Quioto,428,0,2019,0
 157,2019-11-19,Houston,Player,Zarek Valentin,429,0,2019,0
 157,2019-11-19,Nashville,Player,Joe Willis,430,0,2019,0
-158,2019-11-19,Nashville,Player,$150000 2020 GAM,431,150000,2020,0
+158,2019-11-19,Nashville,GAM,$150000 2020 GAM,431,150000,2020,0
 158,2019-11-19,FC Cincinnati,Player,Brandon Vazquez,432,0,2019,0
-159,2019-11-19,CF Montreal,Player,$50000 2020 GAM,433,50000,2020,0
+159,2019-11-19,CF Montreal,GAM,$50000 2020 GAM,433,50000,2020,0
 159,2019-11-19,CF Montreal,TAM,$50000 2020 TAM,434,0,2019,50000
 159,2019-11-19,Nashville,Player,Daniel Lovitz,435,0,2019,0
-160,2019-11-19,Kansas City,Player,$50000 2020 GAM,436,50000,2020,0
+160,2019-11-19,Kansas City,GAM,$50000 2020 GAM,436,50000,2020,0
 160,2019-11-19,Kansas City,International Slot,2020 International Slot,437,0,2019,0
 160,2019-11-19,Nashville,Player,Adrian Zendejas,438,0,2019,0
 161,2019-11-13,Houston,Player,Darwin Quintero,439,0,2019,0
 161,2019-11-13,Minnesota,Player,Marlon Hairston,440,0,2019,0
-161,2019-11-13,Minnesota,Player,$600000 2020 GAM,441,600000,2020,0
+161,2019-11-13,Minnesota,GAM,$600000 2020 GAM,441,600000,2020,0
 162,2019-11-13,Columbus Crew,Player,Darlington Nagbe,442,0,2019,0
-162,2019-11-13,Atlanta United,Player,$150000 2020 GAM,443,150000,2020,0
+162,2019-11-13,Atlanta United,GAM,$150000 2020 GAM,443,150000,2020,0
 162,2019-11-13,Atlanta United,TAM,$700000 2020 TAM,444,0,2019,700000
 162,2019-11-13,Atlanta United,International Slot,2020 International Slot,445,0,2019,0
 162,2019-11-13,Atlanta United,TAM,$200000 2021 TAM,446,0,2019,200000
 163,2019-11-12,Chicago,TAM,$50000 2020 TAM,447,0,2019,50000
-163,2019-11-12,Chicago,Player,$50000 2020 GAM,448,50000,2020,0
+163,2019-11-12,Chicago,GAM,$50000 2020 GAM,448,50000,2020,0
 163,2019-11-12,Chicago,Draft Pick,2021 2nd round pick,449,0,2019,0
 163,2019-11-12,Nashville,Player,Dax McCarty,450,0,2019,0
-164,2019-11-12,LA Galaxy,Player,$225000 2020 GAM,451,225000,2020,0
+164,2019-11-12,LA Galaxy,GAM,$225000 2020 GAM,451,225000,2020,0
 164,2019-11-12,Nashville,Player,Dave Romney,452,0,2019,0
 165,2019-11-11,Inter Miami,Player,Victor Ulloa,453,0,2019,0
 165,2019-11-11,FC Cincinnati,Draft Pick,2020 3rd round pick,454,0,2019,0
-165,2019-11-11,FC Cincinnati,Player,$50000 2020 GAM,455,50000,2020,0
+165,2019-11-11,FC Cincinnati,GAM,$50000 2020 GAM,455,50000,2020,0
 165,2019-11-11,FC Cincinnati,Draft Pick,"2019 MLS Re-Entry Draft - Stage 1, Pick 26",456,0,2019,0
 166,2019-09-03,Vancouver Whitecaps,Draft Pick,2022 5th round pick (conditional),457,0,2019,0
 166,2019-09-03,Inter Miami,Player,David Norman Jr.,458,0,2019,0
@@ -464,19 +464,19 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 168,2019-08-07,Chicago,Draft Pick,2020 2nd round pick,462,0,2019,0
 168,2019-08-07,CF Montreal,Player,Jorge Corrales,463,0,2019,0
 169,2019-08-07,D.C. United,Player,Emmanuel Boateng,464,0,2019,0
-169,2019-08-07,LA Galaxy,Player,$250000 2019 GAM,465,250000,2019,0
-170,2019-08-07,San Jose,Player,$650000 2020 GAM,466,650000,2020,0
+169,2019-08-07,LA Galaxy,GAM,$250000 2019 GAM,465,250000,2019,0
+170,2019-08-07,San Jose,GAM,$650000 2020 GAM,466,650000,2020,0
 170,2019-08-07,Nashville,Player,Anibal Godoy,467,0,2019,0
 171,2019-08-06,D.C. United,Player,Felipe Martins,468,0,2019,0
 171,2019-08-06,Vancouver Whitecaps,TAM,$75000 2019 TAM,469,0,2019,75000
 171,2019-08-06,Vancouver Whitecaps,International Slot,2020 International Slot,470,0,2019,0
 172,2019-07-29,New York City FC,Player,Eric Miller,471,0,2019,0
-172,2019-07-29,Minnesota,Player,$50000 2019 GAM,472,50000,2019,0
+172,2019-07-29,Minnesota,GAM,$50000 2019 GAM,472,50000,2019,0
 173,2019-07-19,Columbus Crew,Draft Pick,2020 2nd round pick,473,0,2019,0
 173,2019-07-19,Philadelphia,Player,Joe Bendik,474,0,2019,0
-174,2019-07-17,Chicago,Player,$100000 2019 GAM,475,100000,2019,0
+174,2019-07-17,Chicago,GAM,$100000 2019 GAM,475,100000,2019,0
 174,2019-07-17,Atlanta United,Player,Mo Adams,476,0,2019,0
-175,2019-07-13,Columbus Crew,Player,$50000 2019 GAM,477,50000,2019,0
+175,2019-07-13,Columbus Crew,GAM,$50000 2019 GAM,477,50000,2019,0
 175,2019-07-13,Columbus Crew,TAM,$50000 2019 TAM (performance bonus),478,0,2019,50000
 175,2019-07-13,Columbus Crew,TAM,$50000 2020 TAM (performance bonus),479,0,2019,50000
 175,2019-07-13,Orlando City,Player,Robinho Barbosa,480,0,2019,0
@@ -484,10 +484,10 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 176,2019-07-11,Columbus Crew,TAM,$50000 2019 TAM,482,0,2019,50000
 176,2019-07-11,Columbus Crew,International Slot,2019 International Slot,483,0,2019,0
 176,2019-07-11,Toronto FC,Player,Patrick Mullins,484,0,2019,0
-177,2019-05-16,Columbus Crew,Player,$350000 2020 GAM,485,350000,2020,0
+177,2019-05-16,Columbus Crew,GAM,$350000 2020 GAM,485,350000,2020,0
 177,2019-05-16,Columbus Crew,TAM,$100000 2020 TAM,486,0,2019,100000
 177,2019-05-16,Nashville,Player,David Accam,487,0,2019,0
-178,2019-05-09,Philadelphia,Player,$175000 2019 GAM,488,175000,2019,0
+178,2019-05-09,Philadelphia,GAM,$175000 2019 GAM,488,175000,2019,0
 178,2019-05-09,Nashville,Player,Derrick Jones,489,0,2019,0
 179,2019-05-08,Kansas City,Player,Benny Feilhaber,490,0,2019,0
 179,2019-05-08,Colorado Rapids,Player,Abdul Rwatubyaye,491,0,2019,0
@@ -498,34 +498,34 @@ transaction_id,transaction_date,club,acquired_asset_type,acquired_asset_value,ac
 180,2019-05-07,Colorado Rapids,Player,Lalas Abubakar,496,0,2019,0
 181,2019-05-07,Columbus Crew,Player,David Accam,497,0,2019,0
 181,2019-05-07,Philadelphia,TAM,$100000 2019 TAM,498,0,2019,100000
-181,2019-05-07,Philadelphia,Player,$400000 2019 GAM,499,400000,2019,0
+181,2019-05-07,Philadelphia,GAM,$400000 2019 GAM,499,400000,2019,0
 181,2019-05-07,Philadelphia,International Slot,2019 International Slot,500,0,2019,0
 182,2019-05-06,Columbus Crew,Draft Pick,2020 2nd round pick,501,0,2019,0
-182,2019-05-06,Columbus Crew,Player,$100000 2019 GAM,502,100000,2019,0
+182,2019-05-06,Columbus Crew,GAM,$100000 2019 GAM,502,100000,2019,0
 182,2019-05-06,Atlanta United,Player,Justin Meram,503,0,2019,0
 183,2019-05-03,Chicago,Player,Francisco Calvo,504,0,2019,0
-183,2019-05-03,Minnesota,Player,$100000 2019 GAM,505,100000,2019,0
+183,2019-05-03,Minnesota,GAM,$100000 2019 GAM,505,100000,2019,0
 183,2019-05-03,Minnesota,TAM,$50000 2019 TAM,506,0,2019,50000
-183,2019-05-03,Minnesota,Player,$100000 2020 GAM,507,100000,2020,0
+183,2019-05-03,Minnesota,GAM,$100000 2020 GAM,507,100000,2020,0
 183,2019-05-03,Minnesota,TAM,$150000 2020 TAM,508,0,2019,150000
 184,2019-02-23,Chicago,Player,C.J. Sapong,509,0,2019,0
-184,2019-02-23,Philadelphia,Player,$450000 2019 GAM,510,450000,2019,0
+184,2019-02-23,Philadelphia,GAM,$450000 2019 GAM,510,450000,2019,0
 185,2019-02-05,Columbus Crew,Player,Waylon Francis,511,0,2019,0
-185,2019-02-05,Seattle Sounders,Player,$50000 2019 GAM,512,50000,2019,0
-186,2019-01-28,Kansas City,Player,$900000 2019 GAM,513,900000,2019,0
+185,2019-02-05,Seattle Sounders,GAM,$50000 2019 GAM,512,50000,2019,0
+186,2019-01-28,Kansas City,GAM,$900000 2019 GAM,513,900000,2019,0
 186,2019-01-28,Minnesota,Player,Ike Opara,514,0,2019,0
 187,2019-01-24,Chicago,Player,Amando Moreno,515,0,2019,0
 187,2019-01-24,New York Red Bulls,Draft Pick,2019 2nd round pick (#32),516,0,2019,0
-188,2019-01-23,Toronto FC,Player,$150000 2019 GAM,517,150000,2019,0
+188,2019-01-23,Toronto FC,GAM,$150000 2019 GAM,517,150000,2019,0
 188,2019-01-23,Toronto FC,TAM,$100000 2020 TAM,518,0,2019,100000
 188,2019-01-23,FC Cincinnati,Player,Nick Hagglund,519,0,2019,0
-189,2019-01-23,New England,Player,$100000 2019 GAM,520,100000,2019,0
+189,2019-01-23,New England,GAM,$100000 2019 GAM,520,100000,2019,0
 189,2019-01-23,Portland,Player,Claude Dielna,521,0,2019,0
 190,2019-01-11,Houston,Draft Pick,2019 2nd round pick (#33),522,0,2019,0
 190,2019-01-11,D.C. United,Player,Chris Seitz (GK),523,0,2019,0
 191,2019-01-11,Houston,Player,Marlon Hairston,524,0,2019,0
-191,2019-01-11,Colorado Rapids,Player,$125000 2019 GAM,525,125000,2019,0
-191,2019-01-11,Colorado Rapids,Player,$50000 2020 GAM,526,50000,2020,0
+191,2019-01-11,Colorado Rapids,GAM,$125000 2019 GAM,525,125000,2019,0
+191,2019-01-11,Colorado Rapids,GAM,$50000 2020 GAM,526,50000,2020,0
 192,2018-01-01 00:00:00,Toronto FC,GAM,$200000 2018 CCL allocation,527,200000,2018,0
 193,2018-01-01 00:00:00,Kansas City,GAM,$200000 2018 CCL allocation,528,200000,2018,0
 194,2018-01-01 00:00:00,FC Dallas,GAM,$200000 2018 CCL allocation,529,200000,2018,0
