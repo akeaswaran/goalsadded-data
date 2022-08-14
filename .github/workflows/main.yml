@@ -14,7 +14,9 @@ jobs:
           - name: Install deps
             run: pip install -r requirements.txt
           - name: Grab newest G+ data from ASA
-            run: python ./asa_retrieve.py
+            run: |
+              python ./asa_retrieve.py
+              python ./zones_retrieve.py
           - name: Push updated files
             uses: test-room-7/action-update-file@v1.5.0
             with:

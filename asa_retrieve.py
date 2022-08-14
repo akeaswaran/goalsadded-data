@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
+print(f"Grabbing G+ data from ASA...")
 def retrieve_data(split_by_game = False, split_by_seasons = True):
     gplus_data = pd.DataFrame()
     for yr in range(2013, 2023):
