@@ -21,12 +21,14 @@ for yr in seasons:
 print(f"Found {len(gplus_data)} records of team zone data, exploding to get G+ factors")
 json_expl_txt = json.loads(gplus_data.explode('data').to_json(orient="records"))
 gplus_json_expl_flat = pd.json_normalize(json_expl_txt)
-print(f"Found {len(gplus_json_expl_flat)} records of exploded team zone data, writing to data directory")
-gplus_json_expl_flat.to_csv('./data/team-g+-zones.csv', index=False)
-print(f"Wrote {len(gplus_json_expl_flat)} records of exploded team zone data to data directory")
+print(f"Found {len(gplus_json_expl_flat)} records of exploded team zone data, stripping ignored action types")
+stripped_expl_flat = gplus_json_expl_flat[~(gplus_json_expl_flat["data.action_type"].isin(["Claiming", "Interrupting"]))]
+print(f"Found {len(stripped_expl_flat)} records for valid action types in exploded team zone data, writing to data directory")
+stripped_expl_flat.to_csv('./data/team-g+-zones.csv', index=False)
+print(f"Wrote {len(stripped_expl_flat)} records of exploded team zone data to data directory")
 
 print(f"slimming columns...")
-gplus_expl_flat = gplus_json_expl_flat[["season_name", "team_id", "minutes", "zone", "data.action_type", "data.goals_added_for", "data.goals_added_against"]]
+gplus_expl_flat = stripped_expl_flat[["season_name", "team_id", "minutes", "zone", "data.action_type", "data.goals_added_for", "data.goals_added_against"]]
 gplus_expl_flat.columns = ["season_name",'team_id', 'minutes', 'zone', 'action_type', 'for_total', 'against_total']
 
 print(f"calculating p96 rates for records...")
@@ -44,14 +46,19 @@ grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','zone']).agg({
 grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
 print(f"Found {len(grouped_gplus)} aggregated group records, calculating net vars")
 
-def find_transpose(season, zone, field):
-    return grouped_gplus[(grouped_gplus.season_name == season) & (grouped_gplus.zone == (31 - zone))][field].tolist()[0]
+def find_transpose(season, team, zone, field):
+    return grouped_gplus[(grouped_gplus.season_name == season) & (grouped_gplus.team_id == team) & (grouped_gplus.zone == zone)][field].tolist()[0]
 
+grouped_gplus['defensive_zone'] = 31 - grouped_gplus.zone
+grouped_gplus['def_for_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'for_total'), axis=1)
+grouped_gplus['def_against_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'against_total'), axis=1)
+grouped_gplus['def_for_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'for_p96'), axis=1)
+grouped_gplus['def_against_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'against_p96'), axis=1)
 
 grouped_gplus['net_p96'] = grouped_gplus['for_p96'] - grouped_gplus['against_p96']
 grouped_gplus['net_total'] = grouped_gplus['for_total'] - grouped_gplus['against_total']
-grouped_gplus['transposed_net_p96'] = grouped_gplus.apply(lambda x: x.for_p96 - find_transpose(x.season_name, x.zone, 'against_p96'), axis=1)
-grouped_gplus['transposed_net_total'] = grouped_gplus.apply(lambda x: x.for_total - find_transpose(x.season_name, x.zone, 'against_total'), axis=1)
+grouped_gplus['transposed_net_p96'] = grouped_gplus['for_p96'] - grouped_gplus['def_for_p96']
+grouped_gplus['transposed_net_total'] = grouped_gplus['for_total'] - grouped_gplus['def_against_total']
 
 print(f"Calculating percentiles...")
 base_range = np.linspace(0.01, 1.00, 100)
