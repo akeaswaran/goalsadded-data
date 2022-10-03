@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-seasons = range(2013, 2023)
+seasons = range(2022, 2023)
 zones = range(1, 31)
 game_states = range(-2, 3)
 
@@ -19,7 +19,7 @@ for yr in seasons:
             tmp['zone'] = z
             tmp['season_name'] = yr
             tmp['game_state'] = g
-            gplus_data = gplus_data.append(tmp, ignore_index=True)
+            gplus_data = pd.concat([gplus_data, tmp], axis=0, ignore_index=True)
 
 print(f"Found {len(gplus_data)} records of team zone data, exploding to get G+ factors")
 json_expl_txt = json.loads(gplus_data.explode('data').to_json(orient="records"))
@@ -39,7 +39,7 @@ gplus_expl_flat['for_p96'] = gplus_expl_flat["for_total"] * 96 / gplus_expl_flat
 gplus_expl_flat['against_p96'] = gplus_expl_flat["against_total"] * 96 / gplus_expl_flat["minutes"]
 
 print(f"Grouping records by season, team, and zone to calculate pctles...")
-grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','zone']).agg({
+grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','zone', 'game_state']).agg({
     'minutes' : ['mean'],
     'for_total': ['sum'], 
     'against_total': ['sum'], 
@@ -49,14 +49,14 @@ grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','zone']).agg({
 grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
 print(f"Found {len(grouped_gplus)} aggregated group records, calculating net vars")
 
-def find_transpose(season, team, zone, field):
-    return grouped_gplus[(grouped_gplus.season_name == season) & (grouped_gplus.team_id == team) & (grouped_gplus.zone == zone)][field].tolist()[0]
+def find_transpose(season, team, zone, game_state, field):
+    return grouped_gplus[(grouped_gplus.season_name == season) & (grouped_gplus.game_state == game_state) & (grouped_gplus.team_id == team) & (grouped_gplus.zone == zone)][field].tolist()[0]
 
 grouped_gplus['defensive_zone'] = 31 - grouped_gplus.zone
-grouped_gplus['def_for_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'for_total'), axis=1)
-grouped_gplus['def_against_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'against_total'), axis=1)
-grouped_gplus['def_for_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'for_p96'), axis=1)
-grouped_gplus['def_against_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, 'against_p96'), axis=1)
+grouped_gplus['def_for_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, x.game_state, 'for_total'), axis=1)
+grouped_gplus['def_against_total'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, x.game_state, 'against_total'), axis=1)
+grouped_gplus['def_for_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, x.game_state, 'for_p96'), axis=1)
+grouped_gplus['def_against_p96'] = grouped_gplus.apply(lambda x: find_transpose(x.season_name, x.team_id, x.defensive_zone, x.game_state, 'against_p96'), axis=1)
 
 grouped_gplus['net_p96'] = grouped_gplus['for_p96'] - grouped_gplus['against_p96']
 grouped_gplus['net_total'] = grouped_gplus['for_total'] - grouped_gplus['against_total']
@@ -89,7 +89,10 @@ def percentiles(zone, year, game_state):
     trans_net_adj_data = slice_gplus["transposed_net_p96"]
     
     return pd.DataFrame({ 
-        "season" : year,"zone" : zone, "pct" : base_range,
+        "season" : year,
+        "zone" : zone, 
+        "game_state" : game_state,
+        "pct" : base_range,
         "for_p96" : adj_data.quantile(base_range), "for_pSzn" : data.quantile(base_range),
         "against_p96" : ag_adj_data.quantile(base_range), "against_pSzn" : ag_data.quantile(base_range),
         "net_p96" : net_adj_data.quantile(base_range), "net_pSzn" : net_data.quantile(base_range),
