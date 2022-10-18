@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-seasons = range(2013, 2023)
+seasons = range(2021, 2023)
 zones = range(1, 31)
 game_states = range(-2, 3)
 
@@ -50,6 +50,7 @@ grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
 print(f"Found {len(grouped_gplus)} aggregated group records, calculating net vars")
 
 def find_transpose(season, team, zone, game_state, field):
+    print(f"calculating transpose with params: season - {season}, team - {team}, zone - {zone}, game_state - {game_state} and field - {field}")
     return grouped_gplus[(grouped_gplus.season_name == season) & (grouped_gplus.game_state == game_state) & (grouped_gplus.team_id == team) & (grouped_gplus.zone == zone)][field].tolist()[0]
 
 grouped_gplus['defensive_zone'] = 31 - grouped_gplus.zone
