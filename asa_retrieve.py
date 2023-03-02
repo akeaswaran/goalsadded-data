@@ -5,7 +5,7 @@ import json
 print(f"Grabbing G+ data from ASA...")
 def retrieve_data(split_by_game = False, split_by_seasons = True):
     gplus_data = pd.DataFrame()
-    for yr in range(2013, 2023):
+    for yr in range(2013, 2024):
         print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
         url = f"https://app.americansocceranalysis.com/api/v1/mls/players/goals-added?season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp = pd.read_json(url)

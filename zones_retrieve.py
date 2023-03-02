@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 
-seasons = range(2021, 2023)
+seasons = range(2021, 2024)
 zones = range(1, 31)
 game_states = range(-2, 3)
 
