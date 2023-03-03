@@ -23,7 +23,7 @@ def retrieve_data(split_by_game = False, split_by_seasons = True):
     json_gk_expl_txt = json.loads(gplus_data.explode('data').to_json(orient="records"))
     return pd.json_normalize(json_gk_expl_txt)
 
-def percentiles(base, position, action_type, year):
+def action_percentiles(base, position, action_type, year):
     slice_gplus = base[(base.general_position == position) & (base["data.action_type"] == action_type) & (base.season == year)]
     if (len(slice_gplus) == 0):
         # print(f"no data for Combo of {position} / {action_type}")
@@ -33,6 +33,19 @@ def percentiles(base, position, action_type, year):
     data = slice_gplus["data.goals_added_raw"]
     adj_data = data * 96 / slice_gplus["minutes_played"]
     return pd.DataFrame({ "position" : position, "action_type" : action_type, "season" : year, "pct" : base_range, "p96" : adj_data.quantile(base_range), "pSzn" : data.quantile(base_range)})
+
+def total_percentiles(base, position, year):
+    slice_gplus = base[(base.general_position == position) & (base.season == year)]
+
+    if (len(slice_gplus) == 0):
+        # print(f"no data for Combo of {position} / {action_type}")
+        return pd.DataFrame()
+
+    print(f"Compiling data for combo of {position} / {year}") 
+    data = slice_gplus["data.goals_added_raw"]
+    adj_data = data * 96 / slice_gplus["minutes_played"]
+    return pd.DataFrame({ "position" : position, "season" : year, "pct" : base_range, "p96" : adj_data.quantile(base_range), "pSzn" : data.quantile(base_range)})
+
 
 print(f"Retriving fresh G+ data from ASA...") 
 gplus_expl_flat = retrieve_data(False, True)
@@ -51,12 +64,21 @@ percentile_composite = pd.DataFrame()
 for t in action_types:
     for p in positions:
         for y in years:
-            df = percentiles(gplus_expl_flat, p, t, y)
+            df = action_percentiles(gplus_expl_flat, p, t, y)
             percentile_composite = percentile_composite.append(df, ignore_index=True)
 
-print(f"Saving {len(percentile_composite)} seasonal percentiles to disk...")
+print(f"Saving {len(percentile_composite)} seasonal action percentiles to disk...")
 percentile_composite.to_csv('./data/season-g+-pct.csv', index=False)
-print(f"Generated {len(percentile_composite)} seasonal percentiles and saved to disk.") 
+print(f"Generated {len(percentile_composite)} seasonal action percentiles for {len(action_types)} action types, saved to disk.") 
+
+player_composite = pd.DataFrame()
+for p in positions:
+    for y in years:
+        df = total_percentiles(gplus_expl_flat, p, y)
+        player_composite = player_composite.append(df, ignore_index=True)
+print(f"Saving {len(player_composite)} seasonal player percentiles to disk...")
+player_composite.to_csv('./data/player-g+-pct.csv', index=False)
+print(f"Generated {len(player_composite)} seasonal player percentiles, saved to disk.") 
 
 print(f"Grabbing players for look-up table...") 
 player_list = gplus_expl_flat[gplus_expl_flat.player_id.notna() == True].player_id.unique().tolist()
