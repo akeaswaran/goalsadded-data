@@ -6,7 +6,7 @@ import math
 print(f"Grabbing G+ data from ASA...")
 def retrieve_data(split_by_game = False, split_by_seasons = True):
     gplus_data = pd.DataFrame()
-    for yr in range(2023, 2024):
+    for yr in range(2013, 2024):
         print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
         url = f"https://app.americansocceranalysis.com/api/v1/mls/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp = pd.read_json(url)
@@ -164,25 +164,43 @@ print(f"Saved lookup table of {len(player_data)} player records to disk.")
 player_ranks_total = pd.DataFrame()
 player_ranks_p96 = pd.DataFrame()
 
-for year in years:
-    for team in teams:
-        for pos in positions:
-            for action_type in action_types:
-                [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, action_type)
-                player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-                player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
-            
-            [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
-            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+no_gk_rank_df = gplus_expl_flat[gplus_expl_flat.general_position != 'GK']
 
-        [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, None, None)
+for year in years:
+    # rank within league WITHOUT GK
+    [df_total, df_p96] = rank_players(no_gk_rank_df, year, None, None, None)
+    player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+    player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+
+    # rank within position WITH GK
+    for pos in positions:
+        [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, None)
         player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
         player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
 
-    [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, None, None)
-    player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-    player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+    # rank in action type
+    for action_type in action_types:
+        [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, None, action_type)
+        player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+        player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+        # rank in action_type at position
+        for pos in positions:
+            [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, action_type)
+            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+
+    # for each team
+    for team in teams:
+        # rank within position WITH GK
+        for pos in positions:
+            [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
+            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+        # rank within team WITHOUT GK
+        [df_total, df_p96] = rank_players(no_gk_rank_df, year, team, None, None)
+        player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+        player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+
 
 player_ranks_p96['rank_type'] = 'p96'
 player_ranks_total['rank_type'] = 'total'
