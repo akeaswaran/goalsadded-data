@@ -191,6 +191,18 @@ for year in years:
 
     # for each team
     for team in teams:
+        # rank within action type WITH GK
+        for action_type in action_types:
+            [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, None, action_type)
+            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+
+            # rank in action_type at position
+            for pos in positions:
+                [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, action_type)
+                player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
+                player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+
         # rank within position WITH GK
         for pos in positions:
             [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
