@@ -18,8 +18,7 @@ def retrieve_data(split_by_game = False, split_by_seasons = True):
         tmp_gk["general_position"] = "GK"
         tmp_gk['season'] = yr
         
-        gplus_data = gplus_data.append(tmp, ignore_index=True)
-        gplus_data = gplus_data.append(tmp_gk, ignore_index=True)
+        gplus_data = pd.concat([gplus_data, tmp, tmp_gk], ignore_index=True)
         
     json_gk_expl_txt = json.loads(gplus_data.explode('data').to_json(orient="records"))
     return pd.json_normalize(json_gk_expl_txt)
@@ -124,7 +123,7 @@ for t in action_types:
     for p in positions:
         for y in years:
             df = action_percentiles(gplus_expl_flat, p, t, y)
-            percentile_composite = percentile_composite.append(df, ignore_index=True)
+            percentile_composite = pd.concat([percentile_composite, df], ignore_index=True)
 
 print(f"Saving {len(percentile_composite)} seasonal action percentiles to disk...")
 percentile_composite.to_csv('./data/season-g+-pct.csv', index=False)
@@ -134,7 +133,8 @@ player_composite = pd.DataFrame()
 for p in positions:
     for y in years:
         df = total_percentiles(gplus_expl_flat, p, y)
-        player_composite = player_composite.append(df, ignore_index=True)
+        player_composite = pd.concat([player_composite, df], ignore_index=True)
+
 print(f"Saving {len(player_composite)} seasonal player percentiles to disk...")
 player_composite.to_csv('./data/player-g+-pct.csv', index=False)
 print(f"Generated {len(player_composite)} seasonal player percentiles, saved to disk.") 
@@ -151,7 +151,7 @@ for i in range(0, len(chunks)):
     print(f"Grabbing player data using ids chunk {i} of {len(chunks)}...")
     url = f"https://app.americansocceranalysis.com/api/v1/mls/players?player_id={id_list}"
     tmp = pd.read_json(url)
-    player_data = player_data.append(tmp, ignore_index=True)
+    player_data = pd.concat([player_data, tmp], ignore_index=True)
 
 print(f"Found {len(player_data)} ASA player records, dropping dupes...")
 player_data.drop_duplicates('player_id',inplace=True)
@@ -169,54 +169,54 @@ no_gk_rank_df = gplus_expl_flat[gplus_expl_flat.general_position != 'GK']
 for year in years:
     # rank within league WITHOUT GK
     [df_total, df_p96] = rank_players(no_gk_rank_df, year, None, None, None)
-    player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-    player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+    player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+    player_ranks_p96 = pd.concat([player_ranks_p96, df_p96], ignore_index=True)
 
     # rank within position WITH GK
     for pos in positions:
         [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, None)
-        player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-        player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+        player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
     # rank in action type
     for action_type in action_types:
         [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, None, action_type)
-        player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-        player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+        player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
         # rank in action_type at position
         for pos in positions:
             [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, action_type)
-            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
     # for each team
     for team in teams:
         # rank within action type WITH GK
         for action_type in action_types:
             [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, None, action_type)
-            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
             # rank in action_type at position
             for pos in positions:
                 [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, action_type)
-                player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-                player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+                player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+                player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
         # rank within position WITH GK
         for pos in positions:
             [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
-            player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-            player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
         # rank within team WITHOUT GK
         [df_total, df_p96] = rank_players(no_gk_rank_df, year, team, None, None)
-        player_ranks_total = player_ranks_total.append(df_total, ignore_index=True)
-        player_ranks_p96 = player_ranks_p96.append(df_p96, ignore_index=True)
+        player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
 
 player_ranks_p96['rank_type'] = 'p96'
 player_ranks_total['rank_type'] = 'total'
-rank_composite = player_ranks_p96.append(player_ranks_total)
+rank_composite = pd.concat([player_ranks_total, player_ranks_total], ignore_index=True)
 
 print(rank_composite.dtypes)
 print(slim_set.dtypes)

@@ -110,7 +110,7 @@ for z in zones:
             print(f"Calculating percentile for zone {z} with gamestate {g} in year {y}...")
             df = percentiles(z, y, g)
             print(f"adding {len(df)} records to composite")
-            percentile_composite = percentile_composite.append(df, ignore_index=True)
+            percentile_composite = pd.concat([percentile_composite, df], ignore_index=True)
 
 print(f"Generated {len(percentile_composite)} composite zone records, writing to data directory")
 percentile_composite.to_csv('./data/percentile-g+-zones.csv', index=False)
