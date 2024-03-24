@@ -6,8 +6,7 @@ import time
 import datetime
 
 current_date_time = datetime.datetime.now()
-date = currentDateTime.date()
-year = date.strftime("%Y")
+year = current_date_time.date().strftime("%Y")
 next_year = int(year) + 1
 
 print(f"Grabbing G+ data from ASA...")
