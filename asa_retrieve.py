@@ -2,11 +2,19 @@ import pandas as pd
 import numpy as np
 import json
 import math
+import time
+import datetime
+
+current_date_time = datetime.datetime.now()
+date = currentDateTime.date()
+year = date.strftime("%Y")
+next_year = int(year) + 1
 
 print(f"Grabbing G+ data from ASA...")
 def retrieve_data(split_by_game = False, split_by_seasons = True):
     gplus_data = pd.DataFrame()
-    for yr in range(2013, 2024):
+    for yr in range(year, next_year):
+        time.sleep(3)
         print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
         url = f"https://app.americansocceranalysis.com/api/v1/mls/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp = pd.read_json(url)

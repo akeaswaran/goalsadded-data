@@ -1,8 +1,15 @@
 import pandas as pd
 import numpy as np
 import json
+import time
+import datetime
 
-seasons = range(2013, 2024)
+current_date_time = datetime.datetime.now()
+date = currentDateTime.date()
+year = date.strftime("%Y")
+next_year = int(year) + 1
+
+seasons = range(year, next_year)
 zones = range(1, 31)
 game_states = range(-2, 3)
 
@@ -13,6 +20,7 @@ for yr in seasons:
     print(f"Grabbing ASA data for {yr}")
     for z in zones:
         for g in game_states:
+            time.sleep(3)
             url = f"https://app.americansocceranalysis.com/api/v1/mls/teams/goals-added?zone={z}&season_name={yr}&stage_name=Regular%20Season&gamestate_trunc={g}"
             print(f"{yr} - accessing ASA zone: {z} with gamestate {g}")
             tmp = pd.read_json(url)
