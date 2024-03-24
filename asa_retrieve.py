@@ -13,7 +13,7 @@ next_year = int(year) + 1
 print(f"Grabbing G+ data from ASA...")
 def retrieve_data(split_by_game = False, split_by_seasons = True):
     gplus_data = pd.DataFrame()
-    for yr in range(year, next_year):
+    for yr in range(2013, next_year):
         time.sleep(3)
         print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
         url = f"https://app.americansocceranalysis.com/api/v1/mls/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"

@@ -9,7 +9,7 @@ year = current_date_time.date().strftime("%Y")
 year = int(year)
 next_year = int(year) + 1
 
-seasons = range(year, next_year)
+seasons = range(2013, next_year)
 zones = range(1, 31)
 game_states = range(-2, 3)
 
