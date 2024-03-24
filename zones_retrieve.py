@@ -6,6 +6,7 @@ import datetime
 
 current_date_time = datetime.datetime.now()
 year = current_date_time.date().strftime("%Y")
+year = int(year)
 next_year = int(year) + 1
 
 seasons = range(year, next_year)
