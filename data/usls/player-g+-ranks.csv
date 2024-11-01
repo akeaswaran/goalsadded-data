@@ -206,8 +206,8 @@ season_name,player_id,data.goals_added_raw,minutes_played,total,total_rank,p96,p
 2024,eV5D2GpYQK,0.0146,826.0,0.0146,2.0,0.0016968523002421306,2.0,All,CB,Fouling,total,Sydney Shepherd
 2024,eVq3yKvVMW,0.0137,590.0,0.0137,3.0,0.0022291525423728813,1.0,All,CB,Fouling,total,Claire Constant
 2024,KPqjKOXYQ6,0.0039,882.0,0.0039,4.0,0.0004244897959183673,4.0,All,CB,Fouling,total,Madison Perez
-2024,7vQ7e6625D,0.0,293.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Waniya Hudson
 2024,BLMv6AL8Mx,0.0,300.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Jordyn Hardeman
+2024,7vQ7e6625D,0.0,293.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Waniya Hudson
 2024,xW5p7V30Mg,-0.0016,705.0,-0.0016,7.0,-0.00021787234042553192,7.0,All,CB,Fouling,total,Celia Gaynor
 2024,OlMlgPKwQL,-0.0025,896.0,-0.0025,8.0,-0.00026785714285714287,8.0,All,CB,Fouling,total,Sarah Clark
 2024,7VqG3gWeqv,-0.0209,494.0,-0.0209,9.0,-0.004061538461538461,9.0,All,CB,Fouling,total,Sydney Cummings
@@ -2234,8 +2234,8 @@ season_name,player_id,data.goals_added_raw,minutes_played,total,total_rank,p96,p
 2024,eV5D2GpYQK,0.0146,826.0,0.0146,2.0,0.0016968523002421306,2.0,All,CB,Fouling,total,Sydney Shepherd
 2024,eVq3yKvVMW,0.0137,590.0,0.0137,3.0,0.0022291525423728813,1.0,All,CB,Fouling,total,Claire Constant
 2024,KPqjKOXYQ6,0.0039,882.0,0.0039,4.0,0.0004244897959183673,4.0,All,CB,Fouling,total,Madison Perez
-2024,7vQ7e6625D,0.0,293.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Waniya Hudson
 2024,BLMv6AL8Mx,0.0,300.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Jordyn Hardeman
+2024,7vQ7e6625D,0.0,293.0,0.0,5.5,0.0,5.5,All,CB,Fouling,total,Waniya Hudson
 2024,xW5p7V30Mg,-0.0016,705.0,-0.0016,7.0,-0.00021787234042553192,7.0,All,CB,Fouling,total,Celia Gaynor
 2024,OlMlgPKwQL,-0.0025,896.0,-0.0025,8.0,-0.00026785714285714287,8.0,All,CB,Fouling,total,Sarah Clark
 2024,7VqG3gWeqv,-0.0209,494.0,-0.0209,9.0,-0.004061538461538461,9.0,All,CB,Fouling,total,Sydney Cummings
