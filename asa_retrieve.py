@@ -4,24 +4,26 @@ import json
 import math
 import time
 import datetime
+import os
 
 current_date_time = datetime.datetime.now()
 year = current_date_time.date().strftime("%Y")
 year = int(year)
 next_year = int(year) + 1
+base_range = np.linspace(0.01, 1.00, 100)
 
-print(f"Grabbing G+ data from ASA...")
-def retrieve_data(split_by_game = False, split_by_seasons = True):
+def retrieve_data(competition, start_year, end_year, split_by_game = False, split_by_seasons = True):
+    print(f"Grabbing {competition} G+ data from ASA...")
     gplus_data = pd.DataFrame()
-    for yr in range(2013, next_year):
+    for yr in range(start_year, end_year):
         time.sleep(3)
         print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
-        url = f"https://app.americansocceranalysis.com/api/v1/mls/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp = pd.read_json(url)
         tmp['season'] = yr
         
         print(f"Grabbing data for GKs in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
-        gk_url = f"https://app.americansocceranalysis.com/api/v1/mls/goalkeepers/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        gk_url = f"https://app.americansocceranalysis.com/api/v1/{competition}/goalkeepers/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp_gk = pd.read_json(gk_url)
         tmp_gk["general_position"] = "GK"
         tmp_gk['season'] = yr
@@ -109,161 +111,201 @@ def rank_players(base, year, team: str = None, position: str = None, action_type
         grouped_slice.sort_values(by=['total_rank'], ascending=True).head(10),
         grouped_slice.sort_values(by=['p96_rank'], ascending=True).head(10)
     ]
-    
-print(f"Retriving fresh G+ data from ASA...") 
-gplus_expl_flat = retrieve_data(False, True)
-gplus_expl_flat["data.goals_added_raw_p96"] =  gplus_expl_flat["data.goals_added_raw"] * 96 / gplus_expl_flat["minutes_played"]
 
-print(f"Found {len(gplus_expl_flat)} total rows from ASA, parsing...") 
-base_range = np.linspace(0.01, 1.00, 100)
-years = gplus_expl_flat["season"].unique().tolist()
-print(f"Found {len(years)} unique seasons in data set: {years}")
-action_types = gplus_expl_flat["data.action_type"].unique().tolist()
-print(f"Found {len(action_types)} unique action types in data set: {action_types}")
-positions = gplus_expl_flat["general_position"].unique().tolist()
-print(f"Found {len(positions)} unique positions in data set: {positions}")
-teams = gplus_expl_flat["team_id"].unique().tolist()
-print(f"Found {len(teams)} unique teams in data set: {teams}")
+def process_competition(competition, start_year, end_year):
+    print(f"Retriving fresh G+ data from ASA for competition {competition}...") 
+    gplus_expl_flat = retrieve_data(competition, start_year, end_year, False, True)
+    gplus_expl_flat["data.goals_added_raw_p96"] =  gplus_expl_flat["data.goals_added_raw"] * 96 / gplus_expl_flat["minutes_played"]
 
-print(f"Generating seasonal composites...") 
-percentile_composite = pd.DataFrame()
-for t in action_types:
+    print(f"Found {len(gplus_expl_flat)} total rows from ASA, parsing...") 
+    years = gplus_expl_flat["season"].unique().tolist()
+    print(f"Found {len(years)} unique seasons in data set: {years}")
+    action_types = gplus_expl_flat["data.action_type"].unique().tolist()
+    print(f"Found {len(action_types)} unique action types in data set: {action_types}")
+    positions = gplus_expl_flat["general_position"].unique().tolist()
+    print(f"Found {len(positions)} unique positions in data set: {positions}")
+    teams = gplus_expl_flat["team_id"].unique().tolist()
+    print(f"Found {len(teams)} unique teams in data set: {teams}")
+
+    print(f"Generating seasonal composites...") 
+    percentile_composite = pd.DataFrame()
+    for t in action_types:
+        for p in positions:
+            for y in years:
+                df = action_percentiles(gplus_expl_flat, p, t, y)
+                percentile_composite = pd.concat([percentile_composite, df], ignore_index=True)
+
+    print(f"Creating competition file path at ./data/{competition}")
+    base_path = f"./data/{competition}"
+    os.makedirs(base_path, exist_ok=True)
+
+    print(f"Saving {len(percentile_composite)} seasonal action percentiles to disk...")
+    percentile_composite.to_csv(f'{base_path}/season-g+-pct.csv', index=False)
+    print(f"Generated {len(percentile_composite)} seasonal action percentiles for {len(action_types)} action types, saved to disk.") 
+
+    player_composite = pd.DataFrame()
     for p in positions:
         for y in years:
-            df = action_percentiles(gplus_expl_flat, p, t, y)
-            percentile_composite = pd.concat([percentile_composite, df], ignore_index=True)
+            df = total_percentiles(gplus_expl_flat, p, y)
+            player_composite = pd.concat([player_composite, df], ignore_index=True)
 
-print(f"Saving {len(percentile_composite)} seasonal action percentiles to disk...")
-percentile_composite.to_csv('./data/season-g+-pct.csv', index=False)
-print(f"Generated {len(percentile_composite)} seasonal action percentiles for {len(action_types)} action types, saved to disk.") 
+    print(f"Saving {len(player_composite)} seasonal player percentiles to disk...")
+    player_composite.to_csv(f'{base_path}/player-g+-pct.csv', index=False)
+    print(f"Generated {len(player_composite)} seasonal player percentiles, saved to disk.") 
 
-player_composite = pd.DataFrame()
-for p in positions:
-    for y in years:
-        df = total_percentiles(gplus_expl_flat, p, y)
-        player_composite = pd.concat([player_composite, df], ignore_index=True)
+    print(f"Grabbing players for look-up table...") 
+    player_list = gplus_expl_flat[gplus_expl_flat.player_id.notna() == True].player_id.unique().tolist()
+    print(f"Found {len(player_list)} players in G+ dataset, parsing...")
 
-print(f"Saving {len(player_composite)} seasonal player percentiles to disk...")
-player_composite.to_csv('./data/player-g+-pct.csv', index=False)
-print(f"Generated {len(player_composite)} seasonal player percentiles, saved to disk.") 
+    player_data = pd.DataFrame()
+    chunks = np.array_split(player_list, 50)
+    for i in range(0, len(chunks)):
+        time.sleep(3)
+        chunk = chunks[i]
+        id_list = ','.join(chunk)
+        print(f"Grabbing player data using ids chunk {i} of {len(chunks)}...")
+        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players?player_id={id_list}"
+        tmp = pd.read_json(url)
+        player_data = pd.concat([player_data, tmp], ignore_index=True)
 
-print(f"Grabbing players for look-up table...") 
-player_list = gplus_expl_flat[gplus_expl_flat.player_id.notna() == True].player_id.unique().tolist()
-print(f"Found {len(player_list)} players in G+ dataset, parsing...")
+    print(f"Found {len(player_data)} ASA player records, dropping dupes...")
+    player_data.drop_duplicates('player_id',inplace=True)
+    player_data.sort_values(by='player_name', inplace=True)
+    print(f"Found {len(player_data)} unique ASA player records, slimming and saving to disk...")
+    slim_set = player_data[['player_id', 'player_name']]
+    slim_set.to_csv(f'{base_path}/player_lookup.csv',index=False)
+    print(f"Saved lookup table of {len(player_data)} player records to disk.")
 
-player_data = pd.DataFrame()
-chunks = np.array_split(player_list, 50)
-for i in range(0, len(chunks)):
-    chunk = chunks[i]
-    id_list = ','.join(chunk)
-    print(f"Grabbing player data using ids chunk {i} of {len(chunks)}...")
-    url = f"https://app.americansocceranalysis.com/api/v1/mls/players?player_id={id_list}"
-    tmp = pd.read_json(url)
-    player_data = pd.concat([player_data, tmp], ignore_index=True)
+    player_ranks_total = pd.DataFrame()
+    player_ranks_p96 = pd.DataFrame()
 
-print(f"Found {len(player_data)} ASA player records, dropping dupes...")
-player_data.drop_duplicates('player_id',inplace=True)
-player_data.sort_values(by='player_name', inplace=True)
-print(f"Found {len(player_data)} unique ASA player records, slimming and saving to disk...")
-slim_set = player_data[['player_id', 'player_name']]
-slim_set.to_csv('./data/player_lookup.csv',index=False)
-print(f"Saved lookup table of {len(player_data)} player records to disk.")
+    no_gk_rank_df = gplus_expl_flat[gplus_expl_flat.general_position != 'GK']
 
-player_ranks_total = pd.DataFrame()
-player_ranks_p96 = pd.DataFrame()
-
-no_gk_rank_df = gplus_expl_flat[gplus_expl_flat.general_position != 'GK']
-
-for year in years:
-    # rank within league WITHOUT GK
-    [df_total, df_p96] = rank_players(no_gk_rank_df, year, None, None, None)
-    player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-    player_ranks_p96 = pd.concat([player_ranks_p96, df_p96], ignore_index=True)
-
-    # rank within position WITH GK
-    for pos in positions:
-        [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, None)
+    for year in years:
+        # rank within league WITHOUT GK
+        [df_total, df_p96] = rank_players(no_gk_rank_df, year, None, None, None)
         player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
-
-    # rank in action type
-    for action_type in action_types:
-        [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, None, action_type)
-        player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
-        # rank in action_type at position
-        for pos in positions:
-            [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, action_type)
-            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
-
-    # for each team
-    for team in teams:
-        # rank within action type WITH GK
-        for action_type in action_types:
-            [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, None, action_type)
-            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
-
-            # rank in action_type at position
-            for pos in positions:
-                [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, action_type)
-                player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-                player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+        player_ranks_p96 = pd.concat([player_ranks_p96, df_p96], ignore_index=True)
 
         # rank within position WITH GK
         for pos in positions:
-            [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
+            [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, None)
             player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
             player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
-        # rank within team WITHOUT GK
-        [df_total, df_p96] = rank_players(no_gk_rank_df, year, team, None, None)
-        player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
-        player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+
+        # rank in action type
+        for action_type in action_types:
+            [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, None, action_type)
+            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+            # rank in action_type at position
+            for pos in positions:
+                [df_total, df_p96] = rank_players(gplus_expl_flat, year, None, pos, action_type)
+                player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+                player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+
+        # for each team
+        for team in teams:
+            # rank within action type WITH GK
+            for action_type in action_types:
+                [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, None, action_type)
+                player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+                player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+
+                # rank in action_type at position
+                for pos in positions:
+                    [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, action_type)
+                    player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+                    player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+
+            # rank within position WITH GK
+            for pos in positions:
+                [df_total, df_p96] = rank_players(gplus_expl_flat, year, team, pos, None)
+                player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+                player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
+            # rank within team WITHOUT GK
+            [df_total, df_p96] = rank_players(no_gk_rank_df, year, team, None, None)
+            player_ranks_total = pd.concat([player_ranks_total, df_total], ignore_index=True)
+            player_ranks_p96 = pd.concat([player_ranks_total, df_p96], ignore_index=True)
 
 
-player_ranks_p96['rank_type'] = 'p96'
-player_ranks_total['rank_type'] = 'total'
-rank_composite = pd.concat([player_ranks_total, player_ranks_total], ignore_index=True)
+    player_ranks_p96['rank_type'] = 'p96'
+    player_ranks_total['rank_type'] = 'total'
+    rank_composite = pd.concat([player_ranks_total, player_ranks_total], ignore_index=True)
 
-print(rank_composite.dtypes)
-print(slim_set.dtypes)
+    print(rank_composite.dtypes)
+    print(slim_set.dtypes)
 
-slim_set.player_id = slim_set.player_id.astype(str)
-rank_composite.player_id = rank_composite.player_id.astype(str)
+    slim_set.player_id = slim_set.player_id.astype(str)
+    rank_composite.player_id = rank_composite.player_id.astype(str)
 
-named_composite = rank_composite.merge(slim_set, on=["player_id"])
+    named_composite = rank_composite.merge(slim_set, on=["player_id"])
 
-print(f"Saving {len(named_composite)} player ranks to disk...")
-named_composite.to_csv('./data/player-g+-ranks.csv', index=False)
-print(f"Generated {len(named_composite)} player ranks, saved to disk.") 
+    print(f"Saving {len(named_composite)} player ranks to disk...")
+    named_composite.to_csv(f'{base_path}/player-g+-ranks.csv', index=False)
+    print(f"Generated {len(named_composite)} player ranks, saved to disk.") 
 
 
-print(f"Starting to process {len(gplus_expl_flat)} records for team roster breakdowns...")
-grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','player_id','general_position']).agg({
-    'data.goals_added_raw': ['sum'], 
-    'minutes_played' : ['mean']
-}).reset_index()
-grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
-grouped_gplus['total'] = grouped_gplus['data.goals_added_raw']
-grouped_gplus['p96'] = grouped_gplus['data.goals_added_raw'] * 96 / grouped_gplus["minutes_played"]
-grouped_gplus = grouped_gplus[['season_name', 'team_id', 'player_id','general_position', 'minutes_played','total', 'p96']]
-print(f"Found {len(grouped_gplus)} unique season/team/player/position groups...")
+    print(f"Starting to process {len(gplus_expl_flat)} records for team roster breakdowns...")
+    grouped_gplus = gplus_expl_flat.groupby(['season_name','team_id','player_id','general_position']).agg({
+        'data.goals_added_raw': ['sum'], 
+        'minutes_played' : ['mean']
+    }).reset_index()
+    grouped_gplus.columns = grouped_gplus.columns.droplevel(level=1)
+    grouped_gplus['total'] = grouped_gplus['data.goals_added_raw']
+    grouped_gplus['p96'] = grouped_gplus['data.goals_added_raw'] * 96 / grouped_gplus["minutes_played"]
+    grouped_gplus = grouped_gplus[['season_name', 'team_id', 'player_id','general_position', 'minutes_played','total', 'p96']]
+    print(f"Found {len(grouped_gplus)} unique season/team/player/position groups...")
 
-print(f"Organizing players by season/team/position...")
-team_breakdown_gplus = grouped_gplus.groupby(['season_name','team_id','general_position']).apply(
-        lambda x: pd.Series([
-            np.mean(x['total']),
-            np.mean(x['p96']),
-            np.average(x['p96'], weights=(x['minutes_played'] / sum(x['minutes_played'])))
-        ], index=['total_avg', 'p96_avg', 'p96_weighted_avg'])
-    ).reset_index()
-print(f"Calculated G+ averages for {len(team_breakdown_gplus)} season/team/position")
-print(f"Calculating G+ ranks for {len(team_breakdown_gplus)} season/team/positions...")
-team_breakdown_gplus['total_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['total_avg'].rank(ascending=False)
-team_breakdown_gplus['p96_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_avg'].rank(ascending=False)
-team_breakdown_gplus['p96_weighted_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_weighted_avg'].rank(ascending=False)
-print(f"Calculated G+ ranks for {len(team_breakdown_gplus)} season/team/positions.")
-print(f"Writing team roster breakdown records to disk...")
-team_breakdown_gplus.to_csv('./data/team_position_breakdown.csv', index=False)
-print(f"Wrote {len(team_breakdown_gplus)} team roster breakdown records to disk.")
+    print(f"Organizing players by season/team/position...")
+    team_breakdown_gplus = grouped_gplus.groupby(['season_name','team_id','general_position']).apply(
+            lambda x: pd.Series([
+                np.mean(x['total']),
+                np.mean(x['p96']),
+                np.average(x['p96'], weights=(x['minutes_played'] / sum(x['minutes_played'])))
+            ], index=['total_avg', 'p96_avg', 'p96_weighted_avg'])
+        ).reset_index()
+    print(f"Calculated G+ averages for {len(team_breakdown_gplus)} season/team/position")
+    print(f"Calculating G+ ranks for {len(team_breakdown_gplus)} season/team/positions...")
+    team_breakdown_gplus['total_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['total_avg'].rank(ascending=False)
+    team_breakdown_gplus['p96_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_avg'].rank(ascending=False)
+    team_breakdown_gplus['p96_weighted_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_weighted_avg'].rank(ascending=False)
+    print(f"Calculated G+ ranks for {len(team_breakdown_gplus)} season/team/positions.")
+    print(f"Writing team roster breakdown records to disk...")
+    team_breakdown_gplus.to_csv(f'{base_path}/team_position_breakdown.csv', index=False)
+    print(f"Wrote {len(team_breakdown_gplus)} team roster breakdown records to disk.")
+
+competitions = [
+    {
+        "competition": "mls",
+        "start_year": 2013,
+        "end_year": next_year
+    },
+    {
+        "competition": "nwsl",
+        "start_year": 2013,
+        "end_year": next_year
+    },
+    {
+        "competition": "usls",
+        "start_year": 2024,
+        "end_year": next_year
+    },
+    {
+        "competition": "uslc",
+        "start_year": 2017,
+        "end_year": next_year
+    },
+    {
+        "competition": "usl1",
+        "start_year": 2019,
+        "end_year": next_year
+    },
+    {
+        "competition": "mlsnp",
+        "start_year": 2022,
+        "end_year": next_year
+    }
+]
+for c in competitions:
+    process_competition(c["competition"], c["start_year"], c["end_year"])
