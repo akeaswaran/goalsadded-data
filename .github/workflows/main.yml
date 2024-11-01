@@ -20,9 +20,12 @@ jobs:
             run: |
               python ./asa_retrieve.py
               python ./zones_retrieve.py
+              python ./player_lookup.py
           - name: Push updated files
             uses: test-room-7/action-update-file@v1.5.0
             with:
-              file-path: data/**/*.csv
+              file-path: |
+                data/**/*.csv
+                data/*.csv
               commit-msg: "Updated G+ CSVs after latest bot run."
               github-token: ${{ secrets.GITHUB_TOKEN }}
