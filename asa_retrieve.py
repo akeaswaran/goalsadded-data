@@ -17,13 +17,13 @@ def retrieve_data(competition, start_year, end_year, split_by_game = False, spli
     gplus_data = pd.DataFrame()
     for yr in range(start_year, end_year):
         time.sleep(3)
-        print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
-        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        print(f"Grabbing data for field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")        
+        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp = pd.read_json(url)
         tmp['season'] = yr
         
         print(f"Grabbing data for GKs in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
-        gk_url = f"https://app.americansocceranalysis.com/api/v1/{competition}/goalkeepers/goals-added?stage_name=Regular%20Season&season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        gk_url = f"https://app.americansocceranalysis.com/api/v1/{competition}/goalkeepers/goals-added?season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         tmp_gk = pd.read_json(gk_url)
         tmp_gk["general_position"] = "GK"
         tmp_gk['season'] = yr
