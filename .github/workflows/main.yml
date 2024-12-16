@@ -21,6 +21,7 @@ jobs:
               python ./asa_retrieve.py
               python ./zones_retrieve.py
               python ./player_lookup.py
+              python ./team_lookup.py
           - name: Push updated files
             uses: test-room-7/action-update-file@v1.5.0
             with:
