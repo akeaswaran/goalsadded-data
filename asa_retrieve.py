@@ -17,19 +17,25 @@ def retrieve_data(competition, start_year, end_year, split_by_game = False, spli
     gplus_data = pd.DataFrame()
     for yr in range(start_year, end_year):
         time.sleep(3)
-        print(f"Grabbing data for {competition} field players in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")        
-        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+
+        if competition == "usls":
+            yr_str = f"{str(yr)}-{str(yr+1)[2:]}"
+        else:
+            yr_str = str(year)
+       
+        url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?season_name={yr_str}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        print(f"Grabbing data for {competition} field players in {yr_str} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}: {url}") 
         tmp = pd.read_json(url)
         tmp['season'] = yr
         
-        print(f"Grabbing data for {competition} GKs in {yr} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}")
-        gk_url = f"https://app.americansocceranalysis.com/api/v1/{competition}/goalkeepers/goals-added?season_name={yr}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        gk_url = f"https://app.americansocceranalysis.com/api/v1/{competition}/goalkeepers/goals-added?season_name={yr_str}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
+        print(f"Grabbing data for {competition} GKs in {yr_str} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}: {gk_url}")
         tmp_gk = pd.read_json(gk_url)
         tmp_gk["general_position"] = "GK"
         tmp_gk['season'] = yr
         
         gplus_data = pd.concat([gplus_data, tmp, tmp_gk], ignore_index=True)
-        
+    
     json_gk_expl_txt = json.loads(gplus_data.explode('data').to_json(orient="records"))
     return pd.json_normalize(json_gk_expl_txt)
 
