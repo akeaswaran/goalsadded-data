@@ -89,7 +89,7 @@ for c in competitions:
 
 print(f"assembling player season table based on data from ASA...")
 player_df = pd.concat(big_dfs, axis=0)
-player_df["season_name"] = player_df["season_name"].astype(int)
+player_df["season_name"] = player_df["season_name"].astype(str)
 player_df = player_df[(player_df.team_id != "All") & (player_df.player_name != "")].drop_duplicates(["player_id", "competition", "season_name", "team_id"])
 player_df[["competition", "season_name", "team_id", "player_id", "player_name"]].to_csv("./data/player_lookup.csv",index=False)
     
