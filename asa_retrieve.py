@@ -21,7 +21,7 @@ def retrieve_data(competition, start_year, end_year, split_by_game = False, spli
         if competition == "usls":
             yr_str = f"{str(yr)}-{str(yr+1)[2:]}"
         else:
-            yr_str = str(year)
+            yr_str = str(yr)
        
         url = f"https://app.americansocceranalysis.com/api/v1/{competition}/players/goals-added?season_name={yr_str}&split_by_teams=true&split_by_seasons={split_by_seasons}&split_by_games={split_by_game}"
         print(f"Grabbing data for {competition} field players in {yr_str} with params: split_by_game = {split_by_game}, split_by_seasons = {split_by_seasons}: {url}") 
