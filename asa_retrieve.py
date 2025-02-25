@@ -295,7 +295,7 @@ competitions = [
     {
         "competition": "usls",
         "start_year": 2024,
-        "end_year": 2025 # euro calendar
+        "end_year": next_year # euro calendar
     },
     {
         "competition": "uslc",
