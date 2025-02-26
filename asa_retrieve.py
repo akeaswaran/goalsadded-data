@@ -248,6 +248,8 @@ def process_competition(competition, start_year, end_year):
     named_composite = rank_composite.merge(slim_set, on=["player_id"])
 
     print(f"Saving {len(named_composite)} player ranks to disk...")
+    named_composite["season_name"] = named_composite["season_name"].astype(str)
+    named_composite["season_name"] = named_composite["season_name"].str.replace(".0", "")
     named_composite.to_csv(f'{base_path}/player-g+-ranks.csv', index=False)
     print(f"Generated {len(named_composite)} player ranks, saved to disk.") 
 
@@ -278,6 +280,8 @@ def process_competition(competition, start_year, end_year):
     team_breakdown_gplus['p96_weighted_avg_rank'] = team_breakdown_gplus.groupby(['season_name','general_position'])['p96_weighted_avg'].rank(ascending=False)
     print(f"Calculated G+ ranks for {len(team_breakdown_gplus)} season/team/positions.")
     print(f"Writing team roster breakdown records to disk...")
+    team_breakdown_gplus["season_name"] = team_breakdown_gplus["season_name"].astype(str)
+    team_breakdown_gplus["season_name"] = team_breakdown_gplus["season_name"].str.replace(".0", "")
     team_breakdown_gplus.to_csv(f'{base_path}/team_position_breakdown.csv', index=False)
     print(f"Wrote {len(team_breakdown_gplus)} team roster breakdown records to disk.")
 

@@ -8,7 +8,8 @@ import os
 
 print(f"assembling player season table based on data from ASA...")
 team_df = pd.read_csv(f"./data/player_lookup.csv")
-team_df["season_name"] = team_df["season_name"].astype(int)
+team_df["season_name"] = team_df["season_name"].astype(str)
+team_df["season_name"] = team_df["season_name"].str.replace(".0", "")
 team_df = team_df[(team_df.team_id != "All") & (team_df.player_name != "")].drop_duplicates(["competition", "season_name", "team_id"])
 team_df[["competition", "season_name", "team_id"]].to_csv("./data/team_lookup.csv",index=False)
     
