@@ -1,5 +1,4 @@
 player_id,player_name
-0x5gJJWPM7,
 p6qbOXVXQ0,A.J. Cochran
 315VDkYQ9x,A.J. DeLaGarza
 4wM42Jezqj,A.J. Soares
@@ -92,6 +91,7 @@ Pk5L1dNEqO,Alejandro Silva
 gOMnRPlOMw,Alejandro Zendejas
 2lqRBW0qr0,Aleksandar Katai
 Oa5wVzD9M1,Aleksandar Radovanovic
+2vQ1dlaOqr,Aleksandr Guboglo
 aDQ0aG9pME,Aleksey Miranchuk
 Pk5LzBOEQO,Alenis Vargas
 2lqR7yyDQr,Alessandro Biello
@@ -154,6 +154,7 @@ Pk5LbW7QOW,Amobi Okugo
 Xj5Y6KKaqb,Anders Dreyer
 315VeN4YM9,Anderson Conceicão
 EGMPnReVqa,Anderson Julio
+0x5gkPbP57,Anderson Rosa
 Pk5LZvYQOW,Andoni Iraola
 gOMnv0OMwN,Andraz Struna
 zeQZRx1QKw,Andre Akpan
@@ -225,11 +226,13 @@ gpMOeGdrqz,Antony
 zeQZeZDNqK,Antony Curic
 jYQJ1PaVqG,Antônio Carlos
 gjMNv7PpMK,Aníbal Godoy
+0x5gJJWPM7,Ariath Piol
 xW5prK4BQg,Ariel Lassiter
 0Oq6l2JzM6,Armando Cooper
 XVqK8BaQ01,Armando Lozano
 KPqjg9EQ6v,Arnaud Souquet
 vzqor7PL5a,Arnór Ingvi Traustason
+7VqG3dLjqv,Artem Smoliakov
 xW5prbllQg,Artur
 9YqdEVkQvJ,Arturo Álvarez
 0Oq6oePQ6D,Arévalo Ríos
@@ -374,6 +377,7 @@ kRQa2oe8MK,Brian Wright
 KPqjoRG4Q6,Bright Dike
 KXMe3y6vq6,Brooklyn Raines
 N6MmeKWLME,Brooks Lennon
+ljqEJonzQx,Bruno Damiani
 0x5g2wGjM7,Bruno Gaspar
 0Oq6weYXQ6,Bruno Miranda
 7VqGjbre5v,Bruno Wilson
@@ -996,6 +1000,7 @@ KAqBRgBqbg,Guly do Prado
 NWMWpPZ5lz,Guram Kashia
 aDQ039WqEv,Gustav Svensson
 vzqozAB5ap,Gustavo Bou
+N6MmGr7LqE,Gustavo Caraballo
 Vj58BVBEQ8,Gustavo Vallecilla
 ljqE2eaAQx,Guzmán Corujo
 EGMPlpRxMa,Gyasi Zardes
@@ -1004,9 +1009,11 @@ vzqoOO2Zqa,Hamady Diop
 aDQ0PGdGQE,Handwalla Bwana
 N6MmeE3wME,Hannes Wolf
 Oa5wY8RXQ1,Hany Mukhtar
+ljqEJEozQx,Harbor Miller
 jYQJNEyQGR,Haris Medunjanin
 KAqBjvRZqb,Harold Cummings
 KAqB9g2m5b,Harold Hanson
+XVqKezAwM0,Harold Osorio
 p6qbrkpq0G,Harrison Afful
 NPqxm378Q9,Harrison Heath
 a35rydwBML,Harrison Robledo
@@ -1377,8 +1384,8 @@ aDQ00OGQEv,Jozy Altidore
 a35ry7P2ML,João Klauss
 eVq3xeNXQW,João Moutinho
 Oa5wYKEXQ1,João Paulo
-jYQJgRXGMG,João Pedro
 Pk5L1ARPqO,João Pedro
+jYQJgRXGMG,João Pedro
 0x5gA17Q7O,Juan Agudelo
 eV5DBBYQKn,Juan Carlos Toja
 Xj5Y9XZy5b,Juan Castilla
@@ -1473,6 +1480,7 @@ aDQ0aXEEME,Ken Tribbett
 eV5Dk92mMK,Kendall Burks
 4wM42jPpqj,Kendall McIntosh
 7VqGja3A5v,Kendall Waston
+KAqBvrrVqb,Kenji Mboma Dem
 KAqBxLWMbg,Kennedy Igboananike
 gjMN3W45Kp,Kenneth Kronholm
 gpMO8m25zy,Kenneth Vermeer
@@ -1904,6 +1912,7 @@ Pk5Lzzv7QO,Moïse Bombito
 0x5gBe7M7O,Muhamed Keita
 kRQaeyE1QK,Mustafa Kizza
 2lqR7yoAQr,Mykhi Joyner
+Pk5Lggy7MO,Myrto Uzuni
 xW5pw0RGMg,Nabilai Kibunguchy
 N6MmeX2wME,Nacho Gil
 jYQJnEGQGR,Nana Attakora
@@ -1951,6 +1960,7 @@ p6qb3zlDQ0,Nicolas Fleuriau Chateau
 KAqBjjAZqb,Nicolas Hasler
 kRQayrjQKZ,Nicolas Isimat-Mirin
 7vQ7Bmj8qD,Nicolás Acevedo
+odMXGB1xQY,Nicolás Dubersarsky
 eVq3aLbnMW,Nicolás Figal
 0x5gPakRq7,Nicolás Freire
 KAqBbvXqbg,Nicolás Gaitán
@@ -1996,6 +2006,7 @@ Vj58WNDrM8,Obed Vargas
 xW5pyrwKqg,Obinna Nwobodo
 gjMNvLRpMK,Octavio Rivero
 9YqdxKjqvJ,Oguchi Onyewu
+2vQ1jGzOMr,Ola Brynhildsen
 315Vz8n59x,Ola Kamara
 Pk5LggA7MO,Oleksandr Svatok
 vzqo7zdZqa,Oliver Larraz
@@ -2030,6 +2041,7 @@ gOMngPA5wN,Oswaldo Minda
 vzqoddyjQa,Ousman Jabang
 odMX7KkoQY,Ousmane Doumbia
 ljqELmeo5x,Ousseni Bouda
+eVq3yR3yMW,Owen Gene
 4wM4J8bNqj,Owen Wolff
 NWMWozjzMl,O’Vonte Mullings
 9vQ2oymMK6,Pa Modou Kah
@@ -2256,6 +2268,7 @@ NWMWLO7N5l,Sam Junqua
 4JMAaEp9MK,Sam Nicholson
 KPqj71NyQ6,Sam Surridge
 OlMl9zeE5L,Sam Vines
+odMXEZjr5Y,Sam Williams
 eVq3jgbX5W,Samba
 KXMe8zRPQ6,Sami Guediri
 0Oq6lj26M6,Samuel
@@ -2264,11 +2277,13 @@ jYQJxXE5GR,Samuel Armenteros
 gOMnvaBMwN,Samuel Inkoom
 gjMNKgv5Kp,Samuel Ochoa
 7VqGj3RA5v,Samuel Piette
+KPqj7loEQ6,Samuel Rogers
 4wM4aRPp5j,Samuel Shashoua
 9vQ22omrQK,Samuel Tetteh
 Oa5wzADM14,Sanna Nyassi
 p6qbePyD50,Santiago Arias
 Oa5wYlbjQ1,Santiago González
+gpMOeAdDqz,Santiago Morales
 4wM4JmKAqj,Santiago Moreno
 aDQ0PDEpQE,Santiago Mosquera
 9YqdoPb85v,Santiago Patiño
@@ -2389,6 +2404,7 @@ jYQJ1w0GqG,Stuart Findlay
 ljqEgE4Mx0,Sunny
 vzqodgRYQa,Sunusi Ibrahim
 2vQ14nnLqr,Szabolcs Schon
+wvq9Xdlw5W,Tadeo Allende
 7vQ7xpBzMD,Taha Habroune
 aDQ0PJpPQE,Tai Baribo
 a35rrkbG5L,Tajon Buchanan
@@ -2605,6 +2621,7 @@ wvq9gNWlMW,Zachary Herivaux
 ljqEjOpzQx,Zack Steffen
 XVqKYj3DM0,Zakaria Diallo
 2lqRjYLWqr,Zane Monlouis
+Pk5LJZZQOW,Zanka
 zeQZJX1KQK,Zarek Valentin
 3Xj5Y7wQbd,Zat Knight
 gpMOeEnOqz,Zavier Gozo
