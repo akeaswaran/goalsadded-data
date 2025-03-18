@@ -1,6 +1,5 @@
 player_id,player_name
 gpMO1ryRqz,
-gOMnd2nxqw,
 Oa5wV7E9M1,A.J. Palazzolo
 7VqG3Onxqv,AJ Marcucci
 9YqdW9a85v,Aaron Bibout
@@ -168,6 +167,7 @@ jYQJg7nEMG,Antone Bossenberry
 jYQJYy1BqG,Antonio Gomez
 7vQ7xgzzMD,Antonio Herrera
 gOMnl4n6qw,Antonio Leone
+0Oq6LmLzM6,Antonio Riquelme
 zeQZeZDNqK,Antony Curic
 xW5pwGX9Mg,Antony García
 KPqjBGjyq6,Anyole Peter
@@ -278,6 +278,7 @@ gpMOovoOMz,Bryan Vasquez
 gOMnlkX8qw,Bryce Barnun
 gpMOoOpOMz,Bryce Duke
 Xj5YyOGa5b,Bryce Richards
+jYQJg4OPMG,Bryce Vanvoorhis
 7VqG028WQv,Bubacar Djalo
 Oa5wdZLBq1,Burke Fahling
 Vj58aJ8mq8,Buster Sjöberg
@@ -302,6 +303,7 @@ Pk5Lem7LqO,Cameron Cilley
 aDQ0NN9v5E,Cameron Dunbar
 eVq3r1yy5W,Cameron Johnson
 ljqE9w2zqx,Camil Azzam Ruiz
+OlMlgzE0QL,Camilo Ponce
 ljqEJ80OQx,Cannon Scretchen
 4wM4JbWzqj,Carl Sainté
 NWMWob2DMl,Carlito Saylon
@@ -560,8 +562,8 @@ gOMnYWweQw,Drake Hadeed
 KXMe8NYXQ6,Dren Dobruna
 2lqRjDvxqr,Drew Hardin
 odMXj3JqYL,Drew Moor
-9vQ24L7m5K,Drew Murray
 9vQ24pvY5K,Drew Murray
+9vQ24L7m5K,Drew Murray
 7vQ7BYdeqD,Dru Yearwood
 e7MzZvEeMr,Duncan Jarvie
 9z5k3eZb5A,Dustin Aguirre
@@ -623,6 +625,7 @@ Oa5wAAjXQ1,Enzo Mauriz
 2lqRjjV2qr,Eric De La Cerda
 7VqGJAXx5v,Eric Dick
 odMX71zrQY,Eric Hernandez
+NWMWoYveMl,Eric Izoita
 gjMNjkxpMK,Eric Kinzner
 2vQ1dJAxqr,Eric Klein
 jYQJBvOGQG,Eric Leonard
@@ -682,8 +685,8 @@ NWMWld0Y5l,Favian Vazquez
 KXMe8nlPQ6,Faysal Bettache
 e7MzJ3m6Mr,Federico Navarro
 2lqRjD8Aqr,Federico Stachuk
-gjMN6gkKMK,Felipe
 wvq9bOBQWn,Felipe
+gjMN6gkKMK,Felipe
 KAqBk00XQb,Felipe Carneiro
 XVqKWZp2q0,Felipe Hernández
 2lqRj4jxqr,Felipe Valencia
@@ -721,6 +724,7 @@ wvq9jRrmQW,Gabriel Mikina
 0x5gWNzZ57,Gabriel Oksanen
 4wM4pbVNMj,Gael Gibert
 eVq3xEAjQW,Gael Quintero
+gjMN7Xz05K,Gage Guerra
 Oa5w0LVXq1,Gallatin Sandnes
 raMyrgzB5d,Gavin Beavers
 KPqjKnePQ6,Gavin Gall
@@ -884,6 +888,7 @@ gjMN6rwYMK,Jacob Erlandson
 NWMWlpmD5l,Jacob Evans
 KAqBNYNXqb,Jacob Greene
 xW5pwWpYMg,Jacob Grekowicz
+2lqR7BVLQr,Jacob Izoita
 2lqRjZp2qr,Jacob Jackson
 7vQ7xGEeMD,Jacob Molinaro
 XVqKeBkKM0,Jacob Shaffelburg
@@ -1129,6 +1134,7 @@ e7MzKKJ5r0,Ján Greguš
 wvq9gwJZMW,Kadin Chung
 KXMeg7NBq6,Kaedren Spivey
 odMXE64e5Y,Kage Romanshyn Jr
+KAqBkZJXQb,Kai Carlson
 XVqK218w50,Kai Jaeger
 2vQ14AJ8qr,Kai Thomas
 e7MzZX9GMr,Kai Zeruhn
@@ -1225,6 +1231,7 @@ Xj5YylVX5b,Lesther García
 e7MzJpBjMr,Liam Butts
 Pk5LeKZYqO,Liam Guske
 EGMPRxGrqa,Liam Mackenzie
+7vQ7B1nYqD,Liam O'Gara
 7VqG3BBXqv,Lima
 4wM4Ed2g5j,Lincoln Matuskiewicz
 N6MmGpLxqE,Lionel Djiro
@@ -1373,6 +1380,7 @@ wvq9el3NqW,Max Anchor
 2lqR7wZaQr,Max Arfsten
 4JMAkxb9qK,Max Eisenberg
 7vQ7w3kLQD,Max Floriani
+Oa5wKOWB51,Max Kerkvliet
 2lqRJXAWqr,Max Middleby
 7vQ7xDEDMD,Max Schneider
 4JMAoKalqK,Max Viera
@@ -1380,6 +1388,7 @@ KPqjonZyQ6,Maxime Crépeau
 Oa5wdol4q1,Maximo Carrizo
 jYQJgExWMG,Maximo Nystrom
 7vQ7eNjG5D,Maximus Ekk
+eVq3xArGQW,Maximus Jennings
 aDQ0NKEG5E,Maxwell Miller
 ljqELLzz5x,Maxwell Murray
 N6MmW1KgqE,Maxwell Simpson
@@ -1467,6 +1476,7 @@ eVq3xrLgQW,Nathan Crockford
 9YqdwR0R5v,Nathan Ferguson
 9vQ2Z1GaQK,Nathan Fogaça
 KAqBNL8mqb,Nathan Harriel
+xW5p7vRdMg,Nathan Koehler
 4wM4EvK45j,Nathan Moua
 N6Mmo9EPqE,Nathan Ordaz
 NPqxAV1XQ9,Nathan Rodrigues
@@ -1671,12 +1681,15 @@ jYQJB7PDQG,Raul Miglietti
 aDQ0x9bpQE,Rayan Elloumi
 gpMOLjKn5z,Rayme Nyembwe
 9vQ2Z619QK,Raymond Drai
+jYQJgWmdMG,Real Gill
 wvq9ebLaqW,Reed Baker-Whiting
 e7MzJL0eMr,Reese Miller
 a35rR3wo5L,Reid Fisher
 315V7bLYq9,Reid Roberts
 9vQ24wDL5K,Remi Okunlola
+Vj58BJ6DQ8,Reo Griffiths
 jYQJgy6WMG,Reshaun Walkes
+xW5pwa9YMg,Ricardo Bautista
 OlMlB3oNqL,Ricardo Gorday
 9YqdoXYj5v,Ricardo Ibarra
 p6qb3Z8pQ0,Ricardo Montenegro
@@ -1715,6 +1728,7 @@ eVq3r1eD5W,Ronald Donkor
 eV5DLWdm5K,Ronald Hernández
 EGMPrXo4qa,Ronan Wynne
 EGMP1j9x5a,Rory O'Driscoll
+ljqELL0E5x,Ruben Messalles
 NWMWVjaDQl,Rubio Rubín
 OlMlBpjNqL,Rubén Bonachera López
 gpMOeEDEqz,Rubén Ramos Jr.
@@ -1948,6 +1962,7 @@ jYQJaKvDqG,Víctor Casillas
 315VX3kGQ9,Wan Kuzain
 2lqR71wAQr,Warner Brown
 0Oq6LpK2M6,Wayne Frederick
+jYQJ1kbyqG,Wesley Charpie
 BLMv7wr75x,Wessel Speel
 raMyeb0AMd,Weverton
 7VqG08wXQv,Wikelman Carmona
@@ -1969,6 +1984,7 @@ NWMWllOE5l,Wilson Eisner
 N6Mmo7avqE,Wilterlynd Inalien
 9YqdoXJL5v,Woobens Pacius
 ljqE9Vnoqx,Wyatt Holt
+eV5D21BAQK,Wyatt Meyer
 2vQ1dpz0qr,Wyatt Nelson
 0Oq63JA7Q6,Wyatt Omsberg
 KXMekg02q6,Xavier Arreaga
@@ -2006,6 +2022,7 @@ gpMOeEnOqz,Zavier Gozo
 XVqKemLRM0,Zayden Bello
 XVqKWA9Bq0,Zico Bailey
 9Yqdw3L85v,Zidane Yañez
+NPqxAN1XQ9,Zinedine Rodriguez
 eV5DzA1nQK,Zion Scarlett
 eVq3epZwMW,Álvaro Augusto
 p6qb33mbQ0,Érick Díaz
