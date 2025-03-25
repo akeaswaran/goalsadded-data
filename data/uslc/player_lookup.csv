@@ -1,5 +1,4 @@
 player_id,player_name
-7VqGLP23Qv,
 p6qbOXVXQ0,A.J. Cochran
 315VDkYQ9x,A.J. DeLaGarza
 wvq9eEX3qW,A.J. Paterson
@@ -52,6 +51,7 @@ Oa5wVLWAM1,Adam Lundkvist
 aDQ0rNE5Ev,Adam Moffat
 xW5prAPKQg,Adam Najem
 Pk5LemYYqO,Adam Saldana
+Pk5LZ7pEQO,Adewale Obalola
 eVq3xXLDQW,Adolfo Guzman
 eV5DzXo9QK,Adolfo Hernández
 NWMWV6dzQl,Adonijah Reid
@@ -876,10 +876,11 @@ xW5prmvGQg,Dion Pereira
 gOMn2j7mMw,Dionysius Harmon
 7vQ7W8OQD1,Distel Zola
 gOMnBy6MwN,Djiby Fall
+BLMvKPGX5x,Dmitri Erofeev
 raMy4eBQd2,Dom Dwyer
 wvq9e0ElqW,Dominic Gasso
-BLMvlx0Rqx,Dominic Oduro
 kRQaYR8QKZ,Dominic Oduro
+BLMvlx0Rqx,Dominic Oduro
 0Oq638a6Q6,Dominick Hernandez
 xW5pr21KQg,Dominick Zator
 e7Mz903XQr,Dominik Jakubek
@@ -1127,6 +1128,7 @@ gpMOrxmyQz,Gabriel Wiethaeuper-Balbinotti
 gjMNvEwpMK,Garrett Halfhill
 ljqEVpwkQx,Garrett McLaughlin
 vzqoddNJQa,Garrison Tubbs
+KPqjwyyYQ6,Garven-Michee Metusala
 raMyrgzB5d,Gavin Beavers
 kRQaoojb5K,Gavin Krenecki
 4wM4EBbB5j,Gavin Turner
@@ -1171,8 +1173,8 @@ aDQ0PgwRQE,Gloire Amanda
 gpMOLbDO5z,Gonzalo Pelúa
 gjMNRpYYMK,Gordon Wild
 NPqxANjYQ9,Graham Jones
-9vQ2Zyd1QK,Graham Smith
 eVq3j3oG5W,Graham Smith
+9vQ2Zyd1QK,Graham Smith
 a35ryG1BML,Grant Howard
 0x5g2B8XM7,Grant Lillard
 Vj58B494Q8,Grant Robinson
@@ -1962,6 +1964,7 @@ gpMOekwDqz,Luke Biasi
 a35rB7Do5L,Luke Brennan
 eVq3x9L6QW,Luke Ferreira
 EGMPZ36rqa,Luke Haakenson
+4JMAo8YlqK,Luke Ivanovic
 gjMN6xP0MK,Luke Merrill
 ljqELJPw5x,Luke Mitchell
 gOMn6kVXMw,Luke Mulholland
@@ -1971,6 +1974,7 @@ raMyZ9bN5d,Luke Spencer
 gjMNv7AKMK,Luke Vercollone
 e7MzlK6Xqr,Luke Waechter
 Oa5wAoJXQ1,Luther Archimede
+315VWnkvq9,Lyam MacKinnon
 ljqE2jbwQx,Léo Pereira
 0Oq6Lk8XM6,MJ Petry
 Vj58WyWLM8,Maalique Foster
@@ -2463,6 +2467,7 @@ KPqjKbg2Q6,Paxten Aaronson
 jYQJznwWQG,Peabo Doue
 9Yqdo4yj5v,Pearse O'Brien
 0Oq6la47M6,Pecka
+gOMnYox6Qw,Pedro Dolabella
 NPqxer2GQ9,Pedro Galvão
 jYQJgGmdMG,Pedro Guimaraes
 XVqKWdVWq0,Pedro Ribeiro
@@ -2670,8 +2675,8 @@ vzqo70xZqa,Ryan Sierakowski
 0Oq63Ym2Q6,Ryan Spaulding
 9vQ226BxQK,Ryan Telfer
 7vQ7elk25D,Ryan Troutman
-4wM4ZPb4qj,Ryan Williams
 9vQ2b1aQK6,Ryan Williams
+4wM4ZPb4qj,Ryan Williams
 a35rKYoAqL,Ryley Kraft
 ljqE2XAVQx,Ryo Fujii
 raMyedEkMd,Rémi Cabral
@@ -2746,6 +2751,7 @@ Oa5wAxl8Q1,Sebastian Hernandez
 Vj58WEYwM8,Sebastian Mora-Mora
 315VPna6Q9,Sebastian Nava
 gpMOoBE7Mz,Sebastian Sanchez
+7VqGLP23Qv,Sebastian Tregarthen
 kRQabOD8MK,Sebastian Velasquez
 odMX8xmrMY,Sebastien Ibeagha
 xW5pwnAYMg,Sebastien Joseph
@@ -2879,6 +2885,7 @@ EGMPnNKyqa,Thomas Juel-Nielsen
 Oa5wdvKYq1,Thomas Knight IV
 vzqo7zLjqa,Thomas Meilleur-Giguère
 9Yqd6pJjMv,Thomas Olsen
+gpMOoEXlMz,Thomas Presthus
 2vQ1Nl6lMr,Thomas Sanner
 9z5kbdaKMA,Thomas Vancaeyezeele
 ljqEVnJ4Qx,Thomas Williamson
@@ -2955,6 +2962,7 @@ vzqoJZnY5a,Tycho Collins
 BLMv7Xdl5x,Tyger Evans
 raMyyXedMd,Tyler Bagley
 zeQZ711zMK,Tyler Blackwood
+2lqRJXZ4qr,Tyler Clegg
 eVq3jJny5W,Tyler David
 aDQ0od3qEv,Tyler Deric
 N6Mmem0xME,Tyler Feeley
