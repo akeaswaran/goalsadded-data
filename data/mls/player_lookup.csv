@@ -110,6 +110,7 @@ ljqEjOZEQx,Alex Bono
 9z5kaZEYQA,Alex Caskey
 7VqGjlNY5v,Alex Crognale
 BLMvlgGAqx,Alex De John
+gjMNjWyKMK,Alex Freeman
 gjMNRl1pMK,Alex Gersbach
 p6qbPXRpM0,Alex Harris
 e7Mz9jAGQr,Alex Martinez
@@ -124,7 +125,6 @@ XVqKeenNM0,Alex Villanueva
 7VqG01AzQv,Alexander Alvarado
 NWMWRNKQlz,Alexander Büttner
 vzqorjWv5a,Alexander Callens
-gjMNjWyKMK,Alexander Freeman
 gjMNv4DpMK,Alexander Hack
 aDQ0a6J3ME,Alexander López
 EGMPxA0MaY,Alexandre Pato
@@ -655,7 +655,7 @@ NPqxxxgmq9,Dantouma Toure
 ljqEj6gkQx,Dany Rosero
 Xj5Y9pj05b,Daouda Amadou
 2e7Mzo75r0,Darel Russell
-gjMNvnjDMK,Dario Zuparic
+gjMNvnjDMK,Dario Župarić
 gjMNvjYvMK,Darlington Nagbe
 gpMOz8onQz,Darren Mattocks
 xW5pLxJ5g1,Darren O'Dea
@@ -673,6 +673,7 @@ xW5pxyxB5g,David Bingham
 raMyr4Ne5d,David Brekalo
 EGMPYGr5aY,David Carney
 zeQZ7pzDMK,David Choinière
+4JMAormOqK,David Da Costa
 Oa5wpk4q14,David Edgar
 NWMWO1zMlz,David Estrada
 vzqo8xZQap,David Ferreira
@@ -687,7 +688,6 @@ XVqKw1Oq01,David Mateos
 raMyAx7JMd,David Milinkovic
 4wM4an045j,David Ochoa
 NPqxEKxQ9d,David Ousted
-4JMAormOqK,David Pereira Da Costa
 eVq3aaDGMW,David Rocha
 Pk5L6rDPQO,David Ruiz
 kRQaopnY5K,David Schnegg
@@ -785,7 +785,6 @@ Xj5Y68Olqb,Dániel Gazdag
 a35rKGpLqL,Dániel Sallói
 9z5kb3yPMA,Déiber Caicedo
 odMXRxV2qY,Dénis Bouanga
-0x5g2BmPM7,E. Mihaj
 0x5gP9Jjq7,Earl Edwards Jr.
 xW5pyO7Bqg,Easton Ongaro
 Oa5wYyE8Q1,Ebenezer Ofori
@@ -846,6 +845,7 @@ BLMvzyGjMx,Emmanuel Latte Lath
 2vQ1NPw4Mr,Emmanuel Sabbi
 aDQ0PeLRQE,Emrah Klimenta
 eVq3rXzD5W,Ender Echenique
+0x5g2BmPM7,Enea Mihaj
 vzqoJNWB5a,Enes Sali
 KXMekwe3q6,Enzo Copetti
 0Oq6lp3XM6,Enzo Martinez
@@ -917,8 +917,8 @@ gOMn6m3OMw,Federico Bravo
 BLMvnEjMxe,Federico Higuaín
 e7MzJ3m6Mr,Federico Navarro
 ljqEJGGOQx,Federico Redondo
-gjMN6gkKMK,Felipe
 wvq9bOBQWn,Felipe
+gjMN6gkKMK,Felipe Andrade
 NPqxe1RjQ9,Felipe Carballo
 9Yqd2xmMvJ,Felipe Gutiérrez
 XVqKWZp2q0,Felipe Hernández
@@ -941,7 +941,6 @@ vzqo7WBNqa,Forrest Lasso
 gOMna9OOQw,Forster Ajago
 9vQ22J8aQK,Foster Langsdorf
 ljqE212OQx,Francis Atuahene
-7vQ7xNzdMD,Francis Westfield
 a35rlRnwQL,Francisco Calvo
 EGMPZXgxqa,Francisco Ginella
 Oa5wYWg4Q1,Franck Boli
@@ -953,6 +952,7 @@ p6qbON3aQ0,Franco Negri
 315Vl66Q9x,Francois Affolter
 0Oq6lw6M6D,Frank Lampard
 EGMP1jAA5a,Frankie Amaya
+7vQ7xNzdMD,Frankie Westfield
 ljqELjn45x,Franko Kovacevic
 NPqxxnwjq9,Frantz Pangop
 4JMAaExYMK,Fraser Aird
@@ -1268,7 +1268,7 @@ gpMOzjb7Qz,Jefferson Mena
 a35rK9XoqL,Jefferson Savarino
 KXMe8BVrQ6,Jefferson Valverde
 Xj5Y43JyMb,Jeffrey Gal
-eV5DLnOY5K,Jeison Palacios
+eV5DLnOY5K,Jeisson Palacios
 gOMnRNm8Mw,Jeisson Vargas
 OlMledDw5L,Jeizon Ramírez
 Xj5Y40RMbd,Jelle Van Damme
@@ -1802,7 +1802,7 @@ EGMP1WA5aY,Marco Donadel
 Xj5Y0lyMbd,Marco Fabián
 aDQ0PKPRQE,Marco Farfan
 0Oq6ebd56D,Marco Pappa
-9Yqdwlrj5v,Marco Pasalic
+9Yqdwlrj5v,Marco Pašalić
 OlMlonPQLz,Marco Reus
 2lqR1JJ5r0,Marco Ureña
 wvq9Xd3l5W,Marcos Dias
@@ -1913,12 +1913,12 @@ wvq9el3NqW,Max Anchor
 2lqR7wZaQr,Max Arfsten
 7vQ7w3kLQD,Max Floriani
 KPqjzJ2q6v,Maxi Moralez
+0Oq6lLZgM6,Maxi Urruti
 4JMAaBP6MK,Maxim Tissot
 xW5pbAlQg1,Maxime Chanot
 KPqjonZyQ6,Maxime Crépeau
 jYQJzoGVQG,Maxime Dominguez
 gjMNRxjvMK,Maximiliano Falcón
-0Oq6lLZgM6,Maximiliano Urruti
 Oa5wdol4q1,Maximo Carrizo
 KAqBlEZMbg,Maya Yoshida
 e7Mze47Qr0,Maynor Figueroa
@@ -1992,7 +1992,7 @@ BLMvly1Oqx,Milos Degenek
 eV5DL1aa5K,Milton Valenzuela
 gpMOoYj1Mz,Missael Rodríguez
 315VedBGM9,Mitchell Taintor
-aDQ0l7kWQE,Mitja Ilenic
+aDQ0l7kWQE,Mitja Ilenič
 vzqo4pvQap,Mix Diskerud
 Xj5Y6VXxqb,Modou Jadama
 vzqornnY5a,Mohamed El-Munir
@@ -2045,7 +2045,6 @@ raMyAZyBMd,Nicholas DePuy
 gpMOoN8OMz,Nicholas Gioacchini
 gpMOaPn1qz,Nicholas Hagen
 vzqoJzL75a,Nicholas Markanich
-gpMOalORqz,Nicholas Scardina
 vzqo71lNqa,Nick Besler
 zeQZJwX1QK,Nick DeLeon
 raMyAExNMd,Nick Fernandez
@@ -2055,15 +2054,16 @@ vzqoWWYqap,Nick LaBrocca
 gOMnR6e6Mw,Nick Lima
 a35rldmeQL,Nick Marsman
 vzqoOapqap,Nick Rimando
+gpMOalORqz,Nick Scardina
 2vQ1Njr8Mr,Nick Walker
 gpMOLj2r5z,Nicklaus Sullivan
 7VqG080xQv,Nicksoen Gomis
 7VqGjKre5v,Nico Benalcazar
 7vQ7wYXeQD,Nico Cavallo
+N6MmeEN0ME,Nico Hansen
 zeQZ7EwZMK,Nico Lemoine
 0Oq6lgl6M6,Nicolai Næss
 XVqKYY1BM0,Nicolas Benezet
-N6MmeEN0ME,Nicolas Defreitas-Hansen
 p6qb3zlDQ0,Nicolas Fleuriau Chateau
 KAqBjjAZqb,Nicolas Hasler
 kRQayrjQKZ,Nicolas Isimat-Mirin
@@ -2104,7 +2104,7 @@ Oa5wdxN9q1,Nolan Norris
 eVq3l8VQWO,Norberto Paparatto
 KPqjGLPQ6v,Nosa
 vzqo7jLvqa,Nouhou
-a35ryXm2ML,Novak Micovic
+a35ryXm2ML,Novak Mićović
 NWMWz3LQlz,Nuno Coelho
 OlMl9NoE5L,Nuno Santos
 EGMPnxNAqa,Nykolas Sessock
@@ -2399,6 +2399,8 @@ a35rKJdeqL,Sam Hamilton
 KXMek263q6,Sam Johnson
 NWMWLO7N5l,Sam Junqua
 4JMAaEp9MK,Sam Nicholson
+KPqj7loEQ6,Sam Rogers
+wvq9eXy3qW,Sam Sarver
 KPqj71NyQ6,Sam Surridge
 OlMl9zeE5L,Sam Vines
 odMXEZjr5Y,Sam Williams
@@ -2412,8 +2414,6 @@ xW5pyEZBqg,Samuel Bassett
 gOMnvaBMwN,Samuel Inkoom
 gjMNKgv5Kp,Samuel Ochoa
 7VqGj3RA5v,Samuel Piette
-KPqj7loEQ6,Samuel Rogers
-wvq9eXy3qW,Samuel Sarver
 4wM4aRPp5j,Samuel Shashoua
 9vQ22omrQK,Samuel Tetteh
 Oa5wzADM14,Sanna Nyassi
@@ -2571,6 +2571,7 @@ NWMWXvpj5l,Taylor Morgan
 2lqRkoYxQr,Taylor Washington
 315VPPBEQ9,Tayvon Gray
 Vj587nmM8n,Teal Bunbury
+e7MzJVJ7Mr,Ted Ku-Dipietro
 odMXp3AMYL,Teemu Pukki
 vzqo7joZqa,Teenage Hadebe
 eVq3xvygQW,Tega Ikoba
@@ -2581,7 +2582,6 @@ KAqB9Vgm5b,Tesho Akindele
 0Oq63lbzQ6,Themi Antonoglou
 7VqGJ2P35v,Theo Bair
 gpMOo1JyMz,Theo Corbeanu
-e7MzJVJ7Mr,Theodore Ku-Dipietro
 Pk5LedyLqO,Thiago Almada
 4wM4JyWBqj,Thiago Andrade
 4wM4JkaAqj,Thiago Fernandes
@@ -2728,9 +2728,9 @@ xW5pK0JMg1,Will Johnson
 BLMv70kA5x,Will Richmond
 7vQ7rA7YqD,Will Sands
 e7MzZprjMr,William Agada
-EGMPRxR4qa,William Kumado
 ljqELGYo5x,William Reilly
 e7Mz9eOGQr,William Yarbrough
+EGMPRxR4qa,Willy Kumado
 BLMvzGl8Mx,Wilson Harris
 gjMN37Y5Kp,Winston Reid
 eV5D21BAQK,Wyatt Meyer
